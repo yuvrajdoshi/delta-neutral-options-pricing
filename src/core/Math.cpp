@@ -5,7 +5,6 @@
 #include <algorithm>
 
 namespace core {
-
 // Statistical functions
 double mean(const std::vector<double>& values) {
     if (values.empty()) {
