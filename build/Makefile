@@ -225,6 +225,126 @@ src/core/TimeSeries.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/volatility_core.dir/build.make CMakeFiles/volatility_core.dir/src/core/TimeSeries.cpp.s
 .PHONY : src/core/TimeSeries.cpp.s
 
+src/core/VolatilityEstimator.o: src/core/VolatilityEstimator.cpp.o
+.PHONY : src/core/VolatilityEstimator.o
+
+# target to build an object file
+src/core/VolatilityEstimator.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/volatility_core.dir/build.make CMakeFiles/volatility_core.dir/src/core/VolatilityEstimator.cpp.o
+.PHONY : src/core/VolatilityEstimator.cpp.o
+
+src/core/VolatilityEstimator.i: src/core/VolatilityEstimator.cpp.i
+.PHONY : src/core/VolatilityEstimator.i
+
+# target to preprocess a source file
+src/core/VolatilityEstimator.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/volatility_core.dir/build.make CMakeFiles/volatility_core.dir/src/core/VolatilityEstimator.cpp.i
+.PHONY : src/core/VolatilityEstimator.cpp.i
+
+src/core/VolatilityEstimator.s: src/core/VolatilityEstimator.cpp.s
+.PHONY : src/core/VolatilityEstimator.s
+
+# target to generate assembly for a file
+src/core/VolatilityEstimator.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/volatility_core.dir/build.make CMakeFiles/volatility_core.dir/src/core/VolatilityEstimator.cpp.s
+.PHONY : src/core/VolatilityEstimator.cpp.s
+
+src/instruments/Derivative.o: src/instruments/Derivative.cpp.o
+.PHONY : src/instruments/Derivative.o
+
+# target to build an object file
+src/instruments/Derivative.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/volatility_core.dir/build.make CMakeFiles/volatility_core.dir/src/instruments/Derivative.cpp.o
+.PHONY : src/instruments/Derivative.cpp.o
+
+src/instruments/Derivative.i: src/instruments/Derivative.cpp.i
+.PHONY : src/instruments/Derivative.i
+
+# target to preprocess a source file
+src/instruments/Derivative.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/volatility_core.dir/build.make CMakeFiles/volatility_core.dir/src/instruments/Derivative.cpp.i
+.PHONY : src/instruments/Derivative.cpp.i
+
+src/instruments/Derivative.s: src/instruments/Derivative.cpp.s
+.PHONY : src/instruments/Derivative.s
+
+# target to generate assembly for a file
+src/instruments/Derivative.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/volatility_core.dir/build.make CMakeFiles/volatility_core.dir/src/instruments/Derivative.cpp.s
+.PHONY : src/instruments/Derivative.cpp.s
+
+src/instruments/Equity.o: src/instruments/Equity.cpp.o
+.PHONY : src/instruments/Equity.o
+
+# target to build an object file
+src/instruments/Equity.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/volatility_core.dir/build.make CMakeFiles/volatility_core.dir/src/instruments/Equity.cpp.o
+.PHONY : src/instruments/Equity.cpp.o
+
+src/instruments/Equity.i: src/instruments/Equity.cpp.i
+.PHONY : src/instruments/Equity.i
+
+# target to preprocess a source file
+src/instruments/Equity.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/volatility_core.dir/build.make CMakeFiles/volatility_core.dir/src/instruments/Equity.cpp.i
+.PHONY : src/instruments/Equity.cpp.i
+
+src/instruments/Equity.s: src/instruments/Equity.cpp.s
+.PHONY : src/instruments/Equity.s
+
+# target to generate assembly for a file
+src/instruments/Equity.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/volatility_core.dir/build.make CMakeFiles/volatility_core.dir/src/instruments/Equity.cpp.s
+.PHONY : src/instruments/Equity.cpp.s
+
+src/instruments/InstrumentFactory.o: src/instruments/InstrumentFactory.cpp.o
+.PHONY : src/instruments/InstrumentFactory.o
+
+# target to build an object file
+src/instruments/InstrumentFactory.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/volatility_core.dir/build.make CMakeFiles/volatility_core.dir/src/instruments/InstrumentFactory.cpp.o
+.PHONY : src/instruments/InstrumentFactory.cpp.o
+
+src/instruments/InstrumentFactory.i: src/instruments/InstrumentFactory.cpp.i
+.PHONY : src/instruments/InstrumentFactory.i
+
+# target to preprocess a source file
+src/instruments/InstrumentFactory.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/volatility_core.dir/build.make CMakeFiles/volatility_core.dir/src/instruments/InstrumentFactory.cpp.i
+.PHONY : src/instruments/InstrumentFactory.cpp.i
+
+src/instruments/InstrumentFactory.s: src/instruments/InstrumentFactory.cpp.s
+.PHONY : src/instruments/InstrumentFactory.s
+
+# target to generate assembly for a file
+src/instruments/InstrumentFactory.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/volatility_core.dir/build.make CMakeFiles/volatility_core.dir/src/instruments/InstrumentFactory.cpp.s
+.PHONY : src/instruments/InstrumentFactory.cpp.s
+
+src/instruments/Option.o: src/instruments/Option.cpp.o
+.PHONY : src/instruments/Option.o
+
+# target to build an object file
+src/instruments/Option.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/volatility_core.dir/build.make CMakeFiles/volatility_core.dir/src/instruments/Option.cpp.o
+.PHONY : src/instruments/Option.cpp.o
+
+src/instruments/Option.i: src/instruments/Option.cpp.i
+.PHONY : src/instruments/Option.i
+
+# target to preprocess a source file
+src/instruments/Option.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/volatility_core.dir/build.make CMakeFiles/volatility_core.dir/src/instruments/Option.cpp.i
+.PHONY : src/instruments/Option.cpp.i
+
+src/instruments/Option.s: src/instruments/Option.cpp.s
+.PHONY : src/instruments/Option.s
+
+# target to generate assembly for a file
+src/instruments/Option.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/volatility_core.dir/build.make CMakeFiles/volatility_core.dir/src/instruments/Option.cpp.s
+.PHONY : src/instruments/Option.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -246,6 +366,21 @@ help:
 	@echo "... src/core/TimeSeries.o"
 	@echo "... src/core/TimeSeries.i"
 	@echo "... src/core/TimeSeries.s"
+	@echo "... src/core/VolatilityEstimator.o"
+	@echo "... src/core/VolatilityEstimator.i"
+	@echo "... src/core/VolatilityEstimator.s"
+	@echo "... src/instruments/Derivative.o"
+	@echo "... src/instruments/Derivative.i"
+	@echo "... src/instruments/Derivative.s"
+	@echo "... src/instruments/Equity.o"
+	@echo "... src/instruments/Equity.i"
+	@echo "... src/instruments/Equity.s"
+	@echo "... src/instruments/InstrumentFactory.o"
+	@echo "... src/instruments/InstrumentFactory.i"
+	@echo "... src/instruments/InstrumentFactory.s"
+	@echo "... src/instruments/Option.o"
+	@echo "... src/instruments/Option.i"
+	@echo "... src/instruments/Option.s"
 .PHONY : help
 
 

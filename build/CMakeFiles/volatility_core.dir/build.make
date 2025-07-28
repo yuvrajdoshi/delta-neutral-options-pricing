@@ -125,12 +125,87 @@ CMakeFiles/volatility_core.dir/src/core/TimeSeries.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/volatility_core.dir/src/core/TimeSeries.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yuvraj-doshi/Desktop/volatility-arbitrage-trading-system/src/core/TimeSeries.cpp -o CMakeFiles/volatility_core.dir/src/core/TimeSeries.cpp.s
 
+CMakeFiles/volatility_core.dir/src/core/VolatilityEstimator.cpp.o: CMakeFiles/volatility_core.dir/flags.make
+CMakeFiles/volatility_core.dir/src/core/VolatilityEstimator.cpp.o: /home/yuvraj-doshi/Desktop/volatility-arbitrage-trading-system/src/core/VolatilityEstimator.cpp
+CMakeFiles/volatility_core.dir/src/core/VolatilityEstimator.cpp.o: CMakeFiles/volatility_core.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/yuvraj-doshi/Desktop/volatility-arbitrage-trading-system/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/volatility_core.dir/src/core/VolatilityEstimator.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/volatility_core.dir/src/core/VolatilityEstimator.cpp.o -MF CMakeFiles/volatility_core.dir/src/core/VolatilityEstimator.cpp.o.d -o CMakeFiles/volatility_core.dir/src/core/VolatilityEstimator.cpp.o -c /home/yuvraj-doshi/Desktop/volatility-arbitrage-trading-system/src/core/VolatilityEstimator.cpp
+
+CMakeFiles/volatility_core.dir/src/core/VolatilityEstimator.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/volatility_core.dir/src/core/VolatilityEstimator.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yuvraj-doshi/Desktop/volatility-arbitrage-trading-system/src/core/VolatilityEstimator.cpp > CMakeFiles/volatility_core.dir/src/core/VolatilityEstimator.cpp.i
+
+CMakeFiles/volatility_core.dir/src/core/VolatilityEstimator.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/volatility_core.dir/src/core/VolatilityEstimator.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yuvraj-doshi/Desktop/volatility-arbitrage-trading-system/src/core/VolatilityEstimator.cpp -o CMakeFiles/volatility_core.dir/src/core/VolatilityEstimator.cpp.s
+
+CMakeFiles/volatility_core.dir/src/instruments/Derivative.cpp.o: CMakeFiles/volatility_core.dir/flags.make
+CMakeFiles/volatility_core.dir/src/instruments/Derivative.cpp.o: /home/yuvraj-doshi/Desktop/volatility-arbitrage-trading-system/src/instruments/Derivative.cpp
+CMakeFiles/volatility_core.dir/src/instruments/Derivative.cpp.o: CMakeFiles/volatility_core.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/yuvraj-doshi/Desktop/volatility-arbitrage-trading-system/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/volatility_core.dir/src/instruments/Derivative.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/volatility_core.dir/src/instruments/Derivative.cpp.o -MF CMakeFiles/volatility_core.dir/src/instruments/Derivative.cpp.o.d -o CMakeFiles/volatility_core.dir/src/instruments/Derivative.cpp.o -c /home/yuvraj-doshi/Desktop/volatility-arbitrage-trading-system/src/instruments/Derivative.cpp
+
+CMakeFiles/volatility_core.dir/src/instruments/Derivative.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/volatility_core.dir/src/instruments/Derivative.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yuvraj-doshi/Desktop/volatility-arbitrage-trading-system/src/instruments/Derivative.cpp > CMakeFiles/volatility_core.dir/src/instruments/Derivative.cpp.i
+
+CMakeFiles/volatility_core.dir/src/instruments/Derivative.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/volatility_core.dir/src/instruments/Derivative.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yuvraj-doshi/Desktop/volatility-arbitrage-trading-system/src/instruments/Derivative.cpp -o CMakeFiles/volatility_core.dir/src/instruments/Derivative.cpp.s
+
+CMakeFiles/volatility_core.dir/src/instruments/Equity.cpp.o: CMakeFiles/volatility_core.dir/flags.make
+CMakeFiles/volatility_core.dir/src/instruments/Equity.cpp.o: /home/yuvraj-doshi/Desktop/volatility-arbitrage-trading-system/src/instruments/Equity.cpp
+CMakeFiles/volatility_core.dir/src/instruments/Equity.cpp.o: CMakeFiles/volatility_core.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/yuvraj-doshi/Desktop/volatility-arbitrage-trading-system/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/volatility_core.dir/src/instruments/Equity.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/volatility_core.dir/src/instruments/Equity.cpp.o -MF CMakeFiles/volatility_core.dir/src/instruments/Equity.cpp.o.d -o CMakeFiles/volatility_core.dir/src/instruments/Equity.cpp.o -c /home/yuvraj-doshi/Desktop/volatility-arbitrage-trading-system/src/instruments/Equity.cpp
+
+CMakeFiles/volatility_core.dir/src/instruments/Equity.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/volatility_core.dir/src/instruments/Equity.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yuvraj-doshi/Desktop/volatility-arbitrage-trading-system/src/instruments/Equity.cpp > CMakeFiles/volatility_core.dir/src/instruments/Equity.cpp.i
+
+CMakeFiles/volatility_core.dir/src/instruments/Equity.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/volatility_core.dir/src/instruments/Equity.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yuvraj-doshi/Desktop/volatility-arbitrage-trading-system/src/instruments/Equity.cpp -o CMakeFiles/volatility_core.dir/src/instruments/Equity.cpp.s
+
+CMakeFiles/volatility_core.dir/src/instruments/InstrumentFactory.cpp.o: CMakeFiles/volatility_core.dir/flags.make
+CMakeFiles/volatility_core.dir/src/instruments/InstrumentFactory.cpp.o: /home/yuvraj-doshi/Desktop/volatility-arbitrage-trading-system/src/instruments/InstrumentFactory.cpp
+CMakeFiles/volatility_core.dir/src/instruments/InstrumentFactory.cpp.o: CMakeFiles/volatility_core.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/yuvraj-doshi/Desktop/volatility-arbitrage-trading-system/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/volatility_core.dir/src/instruments/InstrumentFactory.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/volatility_core.dir/src/instruments/InstrumentFactory.cpp.o -MF CMakeFiles/volatility_core.dir/src/instruments/InstrumentFactory.cpp.o.d -o CMakeFiles/volatility_core.dir/src/instruments/InstrumentFactory.cpp.o -c /home/yuvraj-doshi/Desktop/volatility-arbitrage-trading-system/src/instruments/InstrumentFactory.cpp
+
+CMakeFiles/volatility_core.dir/src/instruments/InstrumentFactory.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/volatility_core.dir/src/instruments/InstrumentFactory.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yuvraj-doshi/Desktop/volatility-arbitrage-trading-system/src/instruments/InstrumentFactory.cpp > CMakeFiles/volatility_core.dir/src/instruments/InstrumentFactory.cpp.i
+
+CMakeFiles/volatility_core.dir/src/instruments/InstrumentFactory.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/volatility_core.dir/src/instruments/InstrumentFactory.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yuvraj-doshi/Desktop/volatility-arbitrage-trading-system/src/instruments/InstrumentFactory.cpp -o CMakeFiles/volatility_core.dir/src/instruments/InstrumentFactory.cpp.s
+
+CMakeFiles/volatility_core.dir/src/instruments/Option.cpp.o: CMakeFiles/volatility_core.dir/flags.make
+CMakeFiles/volatility_core.dir/src/instruments/Option.cpp.o: /home/yuvraj-doshi/Desktop/volatility-arbitrage-trading-system/src/instruments/Option.cpp
+CMakeFiles/volatility_core.dir/src/instruments/Option.cpp.o: CMakeFiles/volatility_core.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/yuvraj-doshi/Desktop/volatility-arbitrage-trading-system/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/volatility_core.dir/src/instruments/Option.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/volatility_core.dir/src/instruments/Option.cpp.o -MF CMakeFiles/volatility_core.dir/src/instruments/Option.cpp.o.d -o CMakeFiles/volatility_core.dir/src/instruments/Option.cpp.o -c /home/yuvraj-doshi/Desktop/volatility-arbitrage-trading-system/src/instruments/Option.cpp
+
+CMakeFiles/volatility_core.dir/src/instruments/Option.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/volatility_core.dir/src/instruments/Option.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yuvraj-doshi/Desktop/volatility-arbitrage-trading-system/src/instruments/Option.cpp > CMakeFiles/volatility_core.dir/src/instruments/Option.cpp.i
+
+CMakeFiles/volatility_core.dir/src/instruments/Option.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/volatility_core.dir/src/instruments/Option.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yuvraj-doshi/Desktop/volatility-arbitrage-trading-system/src/instruments/Option.cpp -o CMakeFiles/volatility_core.dir/src/instruments/Option.cpp.s
+
 # Object files for target volatility_core
 volatility_core_OBJECTS = \
 "CMakeFiles/volatility_core.dir/src/core/DateTime.cpp.o" \
 "CMakeFiles/volatility_core.dir/src/core/MarketData.cpp.o" \
 "CMakeFiles/volatility_core.dir/src/core/Math.cpp.o" \
-"CMakeFiles/volatility_core.dir/src/core/TimeSeries.cpp.o"
+"CMakeFiles/volatility_core.dir/src/core/TimeSeries.cpp.o" \
+"CMakeFiles/volatility_core.dir/src/core/VolatilityEstimator.cpp.o" \
+"CMakeFiles/volatility_core.dir/src/instruments/Derivative.cpp.o" \
+"CMakeFiles/volatility_core.dir/src/instruments/Equity.cpp.o" \
+"CMakeFiles/volatility_core.dir/src/instruments/InstrumentFactory.cpp.o" \
+"CMakeFiles/volatility_core.dir/src/instruments/Option.cpp.o"
 
 # External object files for target volatility_core
 volatility_core_EXTERNAL_OBJECTS =
@@ -139,9 +214,14 @@ libvolatility_core.a: CMakeFiles/volatility_core.dir/src/core/DateTime.cpp.o
 libvolatility_core.a: CMakeFiles/volatility_core.dir/src/core/MarketData.cpp.o
 libvolatility_core.a: CMakeFiles/volatility_core.dir/src/core/Math.cpp.o
 libvolatility_core.a: CMakeFiles/volatility_core.dir/src/core/TimeSeries.cpp.o
+libvolatility_core.a: CMakeFiles/volatility_core.dir/src/core/VolatilityEstimator.cpp.o
+libvolatility_core.a: CMakeFiles/volatility_core.dir/src/instruments/Derivative.cpp.o
+libvolatility_core.a: CMakeFiles/volatility_core.dir/src/instruments/Equity.cpp.o
+libvolatility_core.a: CMakeFiles/volatility_core.dir/src/instruments/InstrumentFactory.cpp.o
+libvolatility_core.a: CMakeFiles/volatility_core.dir/src/instruments/Option.cpp.o
 libvolatility_core.a: CMakeFiles/volatility_core.dir/build.make
 libvolatility_core.a: CMakeFiles/volatility_core.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/yuvraj-doshi/Desktop/volatility-arbitrage-trading-system/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX static library libvolatility_core.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/yuvraj-doshi/Desktop/volatility-arbitrage-trading-system/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX static library libvolatility_core.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/volatility_core.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/volatility_core.dir/link.txt --verbose=$(VERBOSE)
 

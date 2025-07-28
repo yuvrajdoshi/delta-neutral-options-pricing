@@ -11,11 +11,13 @@ include_directories(${CMAKE_SOURCE_DIR}/include)
 # Add source files
 file(GLOB_RECURSE SOURCES 
     "${CMAKE_SOURCE_DIR}/src/core/*.cpp"
+    "${CMAKE_SOURCE_DIR}/src/instruments/*.cpp"
 )
 
 # Add header files
 file(GLOB_RECURSE HEADERS 
     "${CMAKE_SOURCE_DIR}/include/core/*.h"
+    "${CMAKE_SOURCE_DIR}/include/instruments/*.h"
 )
 
 # Create a library for the core components
