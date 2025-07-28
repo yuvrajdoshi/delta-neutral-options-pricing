@@ -172,7 +172,7 @@ plt.show()
 ## Development Roadmap
 
 - [x] Project setup and foundation layer
-- [ ] Financial instruments implementation
+- [x] Financial instruments implementation
 - [ ] Volatility models implementation
 - [ ] Option pricing and Greeks calculation
 - [ ] Signal generation and portfolio management
@@ -223,7 +223,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Author
 
-[Your Name] - [your.email@example.com]
+[Yuvraj Doshi] - [doshiyuvraj@gmail.com]
 
 ## References
 
