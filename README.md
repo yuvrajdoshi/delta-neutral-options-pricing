@@ -172,7 +172,7 @@ plt.show()
 ## Development Roadmap
 
 - [x] Project setup and foundation layer
-- [ ] Financial instruments implementation
+- [x] Financial instruments implementation
 - [ ] Volatility models implementation
 - [ ] Option pricing and Greeks calculation
 - [ ] Signal generation and portfolio management
