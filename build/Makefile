@@ -345,6 +345,102 @@ src/instruments/Option.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/volatility_core.dir/build.make CMakeFiles/volatility_core.dir/src/instruments/Option.cpp.s
 .PHONY : src/instruments/Option.cpp.s
 
+src/models/BSMPricingModel.o: src/models/BSMPricingModel.cpp.o
+.PHONY : src/models/BSMPricingModel.o
+
+# target to build an object file
+src/models/BSMPricingModel.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/volatility_core.dir/build.make CMakeFiles/volatility_core.dir/src/models/BSMPricingModel.cpp.o
+.PHONY : src/models/BSMPricingModel.cpp.o
+
+src/models/BSMPricingModel.i: src/models/BSMPricingModel.cpp.i
+.PHONY : src/models/BSMPricingModel.i
+
+# target to preprocess a source file
+src/models/BSMPricingModel.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/volatility_core.dir/build.make CMakeFiles/volatility_core.dir/src/models/BSMPricingModel.cpp.i
+.PHONY : src/models/BSMPricingModel.cpp.i
+
+src/models/BSMPricingModel.s: src/models/BSMPricingModel.cpp.s
+.PHONY : src/models/BSMPricingModel.s
+
+# target to generate assembly for a file
+src/models/BSMPricingModel.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/volatility_core.dir/build.make CMakeFiles/volatility_core.dir/src/models/BSMPricingModel.cpp.s
+.PHONY : src/models/BSMPricingModel.cpp.s
+
+src/models/GARCHModel.o: src/models/GARCHModel.cpp.o
+.PHONY : src/models/GARCHModel.o
+
+# target to build an object file
+src/models/GARCHModel.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/volatility_core.dir/build.make CMakeFiles/volatility_core.dir/src/models/GARCHModel.cpp.o
+.PHONY : src/models/GARCHModel.cpp.o
+
+src/models/GARCHModel.i: src/models/GARCHModel.cpp.i
+.PHONY : src/models/GARCHModel.i
+
+# target to preprocess a source file
+src/models/GARCHModel.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/volatility_core.dir/build.make CMakeFiles/volatility_core.dir/src/models/GARCHModel.cpp.i
+.PHONY : src/models/GARCHModel.cpp.i
+
+src/models/GARCHModel.s: src/models/GARCHModel.cpp.s
+.PHONY : src/models/GARCHModel.s
+
+# target to generate assembly for a file
+src/models/GARCHModel.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/volatility_core.dir/build.make CMakeFiles/volatility_core.dir/src/models/GARCHModel.cpp.s
+.PHONY : src/models/GARCHModel.cpp.s
+
+src/models/Greeks.o: src/models/Greeks.cpp.o
+.PHONY : src/models/Greeks.o
+
+# target to build an object file
+src/models/Greeks.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/volatility_core.dir/build.make CMakeFiles/volatility_core.dir/src/models/Greeks.cpp.o
+.PHONY : src/models/Greeks.cpp.o
+
+src/models/Greeks.i: src/models/Greeks.cpp.i
+.PHONY : src/models/Greeks.i
+
+# target to preprocess a source file
+src/models/Greeks.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/volatility_core.dir/build.make CMakeFiles/volatility_core.dir/src/models/Greeks.cpp.i
+.PHONY : src/models/Greeks.cpp.i
+
+src/models/Greeks.s: src/models/Greeks.cpp.s
+.PHONY : src/models/Greeks.s
+
+# target to generate assembly for a file
+src/models/Greeks.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/volatility_core.dir/build.make CMakeFiles/volatility_core.dir/src/models/Greeks.cpp.s
+.PHONY : src/models/Greeks.cpp.s
+
+src/models/ModelFactory.o: src/models/ModelFactory.cpp.o
+.PHONY : src/models/ModelFactory.o
+
+# target to build an object file
+src/models/ModelFactory.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/volatility_core.dir/build.make CMakeFiles/volatility_core.dir/src/models/ModelFactory.cpp.o
+.PHONY : src/models/ModelFactory.cpp.o
+
+src/models/ModelFactory.i: src/models/ModelFactory.cpp.i
+.PHONY : src/models/ModelFactory.i
+
+# target to preprocess a source file
+src/models/ModelFactory.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/volatility_core.dir/build.make CMakeFiles/volatility_core.dir/src/models/ModelFactory.cpp.i
+.PHONY : src/models/ModelFactory.cpp.i
+
+src/models/ModelFactory.s: src/models/ModelFactory.cpp.s
+.PHONY : src/models/ModelFactory.s
+
+# target to generate assembly for a file
+src/models/ModelFactory.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/volatility_core.dir/build.make CMakeFiles/volatility_core.dir/src/models/ModelFactory.cpp.s
+.PHONY : src/models/ModelFactory.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -381,6 +477,18 @@ help:
 	@echo "... src/instruments/Option.o"
 	@echo "... src/instruments/Option.i"
 	@echo "... src/instruments/Option.s"
+	@echo "... src/models/BSMPricingModel.o"
+	@echo "... src/models/BSMPricingModel.i"
+	@echo "... src/models/BSMPricingModel.s"
+	@echo "... src/models/GARCHModel.o"
+	@echo "... src/models/GARCHModel.i"
+	@echo "... src/models/GARCHModel.s"
+	@echo "... src/models/Greeks.o"
+	@echo "... src/models/Greeks.i"
+	@echo "... src/models/Greeks.s"
+	@echo "... src/models/ModelFactory.o"
+	@echo "... src/models/ModelFactory.i"
+	@echo "... src/models/ModelFactory.s"
 .PHONY : help
 
 

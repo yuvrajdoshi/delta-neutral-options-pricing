@@ -173,8 +173,8 @@ plt.show()
 
 - [x] Project setup and foundation layer
 - [x] Financial instruments implementation
-- [ ] Volatility models implementation
-- [ ] Option pricing and Greeks calculation
+- [x] Volatility models implementation
+- [x] Option pricing and Greeks calculation
 - [ ] Signal generation and portfolio management
 - [ ] Backtesting engine
 - [ ] C++/Python integration
