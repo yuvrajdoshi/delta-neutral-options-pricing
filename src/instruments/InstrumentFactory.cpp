@@ -106,4 +106,19 @@ std::unique_ptr<Option> InstrumentFactory::createAmericanPut(const std::string& 
     return std::make_unique<AmericanOption>(underlyingSymbol, expiryDate, strike, OptionType::Put);
 }
 
+std::unique_ptr<Instrument> InstrumentFactory::clone(const Instrument& instrument) {
+    if (instrument.getType() == InstrumentType::EQUITY) {
+        const Equity& equity = static_cast<const Equity&>(instrument);
+        return std::make_unique<Equity>(equity);
+    } else if (instrument.getType() == InstrumentType::EUROPEAN_OPTION) {
+        const EuropeanOption& option = static_cast<const EuropeanOption&>(instrument);
+        return std::make_unique<EuropeanOption>(option);
+    } else if (instrument.getType() == InstrumentType::AMERICAN_OPTION) {
+        const AmericanOption& option = static_cast<const AmericanOption&>(instrument);
+        return std::make_unique<AmericanOption>(option);
+    } else {
+        throw std::invalid_argument("Unsupported instrument type for cloning");
+    }
+}
+
 } // namespace instruments

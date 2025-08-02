@@ -14,7 +14,7 @@ double Equity::price(const core::MarketData& data) const {
     if (data.getSymbol() != symbol_) {
         throw std::invalid_argument("MarketData symbol does not match equity symbol");
     }
-    return data.getClose() * shares_;
+    return shares_ * data.getClose();  // Return total value of this equity instrument
 }
 
 std::string Equity::getSymbol() const {
@@ -31,13 +31,14 @@ std::vector<double> Equity::calculateRiskMetrics(const core::MarketData& data) c
     // Basic risk metrics for equity:
     // 0: Current Value
     // 1: Daily P&L (assuming previous close was similar)
-    // 2: Position Delta (always 1.0 for equity)
+    // 2: Position Delta (shares for this instrument)
     // 3: Position Gamma (always 0.0 for equity)
     
-    double currentValue = price(data);
-    metrics.push_back(currentValue);                           // Current value (close * shares)
-    metrics.push_back(currentValue - (shares_ * data.getOpen()));  // Intraday P&L: (close - open) * shares
-    metrics.push_back(shares_);                                // Position delta (shares)
+    double pricePerShare = data.getClose();
+    double currentValue = shares_ * pricePerShare;
+    metrics.push_back(currentValue);                           // Current value
+    metrics.push_back((pricePerShare - data.getOpen()) * shares_);  // Intraday P&L
+    metrics.push_back(shares_);                                // Position delta
     metrics.push_back(0.0);                                   // Position gamma (0 for equity)
     
     return metrics;

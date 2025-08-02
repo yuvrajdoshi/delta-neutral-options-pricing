@@ -65,6 +65,16 @@ CMAKE_BINARY_DIR = /home/yuvraj-doshi/Desktop/volatility-arbitrage-trading-syste
 #=============================================================================
 # Targets provided globally by CMake.
 
+# Special rule for the target test
+test:
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Running tests..."
+	/usr/bin/ctest --force-new-ctest-process $(ARGS)
+.PHONY : test
+
+# Special rule for the target test
+test/fast: test
+.PHONY : test/fast
+
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "No interactive CMake dialog available..."
@@ -128,6 +138,149 @@ volatility_core: cmake_check_build_system
 volatility_core/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/volatility_core.dir/build.make CMakeFiles/volatility_core.dir/build
 .PHONY : volatility_core/fast
+
+#=============================================================================
+# Target rules for targets named test_datetime
+
+# Build rule for target.
+test_datetime: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_datetime
+.PHONY : test_datetime
+
+# fast build rule for target.
+test_datetime/fast:
+	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test_datetime.dir/build.make tests/CMakeFiles/test_datetime.dir/build
+.PHONY : test_datetime/fast
+
+#=============================================================================
+# Target rules for targets named test_marketdata
+
+# Build rule for target.
+test_marketdata: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_marketdata
+.PHONY : test_marketdata
+
+# fast build rule for target.
+test_marketdata/fast:
+	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test_marketdata.dir/build.make tests/CMakeFiles/test_marketdata.dir/build
+.PHONY : test_marketdata/fast
+
+#=============================================================================
+# Target rules for targets named test_math
+
+# Build rule for target.
+test_math: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_math
+.PHONY : test_math
+
+# fast build rule for target.
+test_math/fast:
+	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test_math.dir/build.make tests/CMakeFiles/test_math.dir/build
+.PHONY : test_math/fast
+
+#=============================================================================
+# Target rules for targets named test_equity
+
+# Build rule for target.
+test_equity: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_equity
+.PHONY : test_equity
+
+# fast build rule for target.
+test_equity/fast:
+	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test_equity.dir/build.make tests/CMakeFiles/test_equity.dir/build
+.PHONY : test_equity/fast
+
+#=============================================================================
+# Target rules for targets named test_options
+
+# Build rule for target.
+test_options: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_options
+.PHONY : test_options
+
+# fast build rule for target.
+test_options/fast:
+	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test_options.dir/build.make tests/CMakeFiles/test_options.dir/build
+.PHONY : test_options/fast
+
+#=============================================================================
+# Target rules for targets named test_volatility
+
+# Build rule for target.
+test_volatility: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_volatility
+.PHONY : test_volatility
+
+# fast build rule for target.
+test_volatility/fast:
+	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test_volatility.dir/build.make tests/CMakeFiles/test_volatility.dir/build
+.PHONY : test_volatility/fast
+
+#=============================================================================
+# Target rules for targets named test_instrument_factory
+
+# Build rule for target.
+test_instrument_factory: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_instrument_factory
+.PHONY : test_instrument_factory
+
+# fast build rule for target.
+test_instrument_factory/fast:
+	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test_instrument_factory.dir/build.make tests/CMakeFiles/test_instrument_factory.dir/build
+.PHONY : test_instrument_factory/fast
+
+#=============================================================================
+# Target rules for targets named test_garch_model
+
+# Build rule for target.
+test_garch_model: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_garch_model
+.PHONY : test_garch_model
+
+# fast build rule for target.
+test_garch_model/fast:
+	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test_garch_model.dir/build.make tests/CMakeFiles/test_garch_model.dir/build
+.PHONY : test_garch_model/fast
+
+#=============================================================================
+# Target rules for targets named test_bsm_pricing
+
+# Build rule for target.
+test_bsm_pricing: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_bsm_pricing
+.PHONY : test_bsm_pricing
+
+# fast build rule for target.
+test_bsm_pricing/fast:
+	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test_bsm_pricing.dir/build.make tests/CMakeFiles/test_bsm_pricing.dir/build
+.PHONY : test_bsm_pricing/fast
+
+#=============================================================================
+# Target rules for targets named test_model_factory
+
+# Build rule for target.
+test_model_factory: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_model_factory
+.PHONY : test_model_factory
+
+# fast build rule for target.
+test_model_factory/fast:
+	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test_model_factory.dir/build.make tests/CMakeFiles/test_model_factory.dir/build
+.PHONY : test_model_factory/fast
+
+#=============================================================================
+# Target rules for targets named test_strategy
+
+# Build rule for target.
+test_strategy: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_strategy
+.PHONY : test_strategy
+
+# fast build rule for target.
+test_strategy/fast:
+	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test_strategy.dir/build.make tests/CMakeFiles/test_strategy.dir/build
+.PHONY : test_strategy/fast
 
 src/core/DateTime.o: src/core/DateTime.cpp.o
 .PHONY : src/core/DateTime.o
@@ -441,6 +594,126 @@ src/models/ModelFactory.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/volatility_core.dir/build.make CMakeFiles/volatility_core.dir/src/models/ModelFactory.cpp.s
 .PHONY : src/models/ModelFactory.cpp.s
 
+src/strategy/DeltaHedgingStrategy.o: src/strategy/DeltaHedgingStrategy.cpp.o
+.PHONY : src/strategy/DeltaHedgingStrategy.o
+
+# target to build an object file
+src/strategy/DeltaHedgingStrategy.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/volatility_core.dir/build.make CMakeFiles/volatility_core.dir/src/strategy/DeltaHedgingStrategy.cpp.o
+.PHONY : src/strategy/DeltaHedgingStrategy.cpp.o
+
+src/strategy/DeltaHedgingStrategy.i: src/strategy/DeltaHedgingStrategy.cpp.i
+.PHONY : src/strategy/DeltaHedgingStrategy.i
+
+# target to preprocess a source file
+src/strategy/DeltaHedgingStrategy.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/volatility_core.dir/build.make CMakeFiles/volatility_core.dir/src/strategy/DeltaHedgingStrategy.cpp.i
+.PHONY : src/strategy/DeltaHedgingStrategy.cpp.i
+
+src/strategy/DeltaHedgingStrategy.s: src/strategy/DeltaHedgingStrategy.cpp.s
+.PHONY : src/strategy/DeltaHedgingStrategy.s
+
+# target to generate assembly for a file
+src/strategy/DeltaHedgingStrategy.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/volatility_core.dir/build.make CMakeFiles/volatility_core.dir/src/strategy/DeltaHedgingStrategy.cpp.s
+.PHONY : src/strategy/DeltaHedgingStrategy.cpp.s
+
+src/strategy/Portfolio.o: src/strategy/Portfolio.cpp.o
+.PHONY : src/strategy/Portfolio.o
+
+# target to build an object file
+src/strategy/Portfolio.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/volatility_core.dir/build.make CMakeFiles/volatility_core.dir/src/strategy/Portfolio.cpp.o
+.PHONY : src/strategy/Portfolio.cpp.o
+
+src/strategy/Portfolio.i: src/strategy/Portfolio.cpp.i
+.PHONY : src/strategy/Portfolio.i
+
+# target to preprocess a source file
+src/strategy/Portfolio.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/volatility_core.dir/build.make CMakeFiles/volatility_core.dir/src/strategy/Portfolio.cpp.i
+.PHONY : src/strategy/Portfolio.cpp.i
+
+src/strategy/Portfolio.s: src/strategy/Portfolio.cpp.s
+.PHONY : src/strategy/Portfolio.s
+
+# target to generate assembly for a file
+src/strategy/Portfolio.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/volatility_core.dir/build.make CMakeFiles/volatility_core.dir/src/strategy/Portfolio.cpp.s
+.PHONY : src/strategy/Portfolio.cpp.s
+
+src/strategy/Position.o: src/strategy/Position.cpp.o
+.PHONY : src/strategy/Position.o
+
+# target to build an object file
+src/strategy/Position.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/volatility_core.dir/build.make CMakeFiles/volatility_core.dir/src/strategy/Position.cpp.o
+.PHONY : src/strategy/Position.cpp.o
+
+src/strategy/Position.i: src/strategy/Position.cpp.i
+.PHONY : src/strategy/Position.i
+
+# target to preprocess a source file
+src/strategy/Position.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/volatility_core.dir/build.make CMakeFiles/volatility_core.dir/src/strategy/Position.cpp.i
+.PHONY : src/strategy/Position.cpp.i
+
+src/strategy/Position.s: src/strategy/Position.cpp.s
+.PHONY : src/strategy/Position.s
+
+# target to generate assembly for a file
+src/strategy/Position.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/volatility_core.dir/build.make CMakeFiles/volatility_core.dir/src/strategy/Position.cpp.s
+.PHONY : src/strategy/Position.cpp.s
+
+src/strategy/Signal.o: src/strategy/Signal.cpp.o
+.PHONY : src/strategy/Signal.o
+
+# target to build an object file
+src/strategy/Signal.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/volatility_core.dir/build.make CMakeFiles/volatility_core.dir/src/strategy/Signal.cpp.o
+.PHONY : src/strategy/Signal.cpp.o
+
+src/strategy/Signal.i: src/strategy/Signal.cpp.i
+.PHONY : src/strategy/Signal.i
+
+# target to preprocess a source file
+src/strategy/Signal.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/volatility_core.dir/build.make CMakeFiles/volatility_core.dir/src/strategy/Signal.cpp.i
+.PHONY : src/strategy/Signal.cpp.i
+
+src/strategy/Signal.s: src/strategy/Signal.cpp.s
+.PHONY : src/strategy/Signal.s
+
+# target to generate assembly for a file
+src/strategy/Signal.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/volatility_core.dir/build.make CMakeFiles/volatility_core.dir/src/strategy/Signal.cpp.s
+.PHONY : src/strategy/Signal.cpp.s
+
+src/strategy/VolatilitySpreadSignal.o: src/strategy/VolatilitySpreadSignal.cpp.o
+.PHONY : src/strategy/VolatilitySpreadSignal.o
+
+# target to build an object file
+src/strategy/VolatilitySpreadSignal.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/volatility_core.dir/build.make CMakeFiles/volatility_core.dir/src/strategy/VolatilitySpreadSignal.cpp.o
+.PHONY : src/strategy/VolatilitySpreadSignal.cpp.o
+
+src/strategy/VolatilitySpreadSignal.i: src/strategy/VolatilitySpreadSignal.cpp.i
+.PHONY : src/strategy/VolatilitySpreadSignal.i
+
+# target to preprocess a source file
+src/strategy/VolatilitySpreadSignal.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/volatility_core.dir/build.make CMakeFiles/volatility_core.dir/src/strategy/VolatilitySpreadSignal.cpp.i
+.PHONY : src/strategy/VolatilitySpreadSignal.cpp.i
+
+src/strategy/VolatilitySpreadSignal.s: src/strategy/VolatilitySpreadSignal.cpp.s
+.PHONY : src/strategy/VolatilitySpreadSignal.s
+
+# target to generate assembly for a file
+src/strategy/VolatilitySpreadSignal.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/volatility_core.dir/build.make CMakeFiles/volatility_core.dir/src/strategy/VolatilitySpreadSignal.cpp.s
+.PHONY : src/strategy/VolatilitySpreadSignal.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -449,6 +722,18 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... test"
+	@echo "... test_bsm_pricing"
+	@echo "... test_datetime"
+	@echo "... test_equity"
+	@echo "... test_garch_model"
+	@echo "... test_instrument_factory"
+	@echo "... test_marketdata"
+	@echo "... test_math"
+	@echo "... test_model_factory"
+	@echo "... test_options"
+	@echo "... test_strategy"
+	@echo "... test_volatility"
 	@echo "... volatility_core"
 	@echo "... src/core/DateTime.o"
 	@echo "... src/core/DateTime.i"
@@ -489,6 +774,21 @@ help:
 	@echo "... src/models/ModelFactory.o"
 	@echo "... src/models/ModelFactory.i"
 	@echo "... src/models/ModelFactory.s"
+	@echo "... src/strategy/DeltaHedgingStrategy.o"
+	@echo "... src/strategy/DeltaHedgingStrategy.i"
+	@echo "... src/strategy/DeltaHedgingStrategy.s"
+	@echo "... src/strategy/Portfolio.o"
+	@echo "... src/strategy/Portfolio.i"
+	@echo "... src/strategy/Portfolio.s"
+	@echo "... src/strategy/Position.o"
+	@echo "... src/strategy/Position.i"
+	@echo "... src/strategy/Position.s"
+	@echo "... src/strategy/Signal.o"
+	@echo "... src/strategy/Signal.i"
+	@echo "... src/strategy/Signal.s"
+	@echo "... src/strategy/VolatilitySpreadSignal.o"
+	@echo "... src/strategy/VolatilitySpreadSignal.i"
+	@echo "... src/strategy/VolatilitySpreadSignal.s"
 .PHONY : help
 
 

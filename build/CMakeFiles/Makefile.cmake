@@ -11,6 +11,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.28.3/CMakeCCompiler.cmake"
   "CMakeFiles/3.28.3/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.28.3/CMakeSystem.cmake"
+  "/home/yuvraj-doshi/Desktop/volatility-arbitrage-trading-system/tests/CMakeLists.txt"
   "/usr/share/cmake-3.28/Modules/CMakeCInformation.cmake"
   "/usr/share/cmake-3.28/Modules/CMakeCXXInformation.cmake"
   "/usr/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake"
@@ -40,9 +41,21 @@ set(CMAKE_MAKEFILE_OUTPUTS
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
+  "tests/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/volatility_core.dir/DependInfo.cmake"
+  "tests/CMakeFiles/test_datetime.dir/DependInfo.cmake"
+  "tests/CMakeFiles/test_marketdata.dir/DependInfo.cmake"
+  "tests/CMakeFiles/test_math.dir/DependInfo.cmake"
+  "tests/CMakeFiles/test_equity.dir/DependInfo.cmake"
+  "tests/CMakeFiles/test_options.dir/DependInfo.cmake"
+  "tests/CMakeFiles/test_volatility.dir/DependInfo.cmake"
+  "tests/CMakeFiles/test_instrument_factory.dir/DependInfo.cmake"
+  "tests/CMakeFiles/test_garch_model.dir/DependInfo.cmake"
+  "tests/CMakeFiles/test_bsm_pricing.dir/DependInfo.cmake"
+  "tests/CMakeFiles/test_model_factory.dir/DependInfo.cmake"
+  "tests/CMakeFiles/test_strategy.dir/DependInfo.cmake"
   )

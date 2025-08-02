@@ -64,15 +64,52 @@ CMAKE_BINARY_DIR = /home/yuvraj-doshi/Desktop/volatility-arbitrage-trading-syste
 
 # The main recursive "all" target.
 all: CMakeFiles/volatility_core.dir/all
+all: tests/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
-preinstall:
+preinstall: tests/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
 clean: CMakeFiles/volatility_core.dir/clean
+clean: tests/clean
 .PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory tests
+
+# Recursive "all" directory target.
+tests/all: tests/CMakeFiles/test_datetime.dir/all
+tests/all: tests/CMakeFiles/test_marketdata.dir/all
+tests/all: tests/CMakeFiles/test_math.dir/all
+tests/all: tests/CMakeFiles/test_equity.dir/all
+tests/all: tests/CMakeFiles/test_options.dir/all
+tests/all: tests/CMakeFiles/test_volatility.dir/all
+tests/all: tests/CMakeFiles/test_instrument_factory.dir/all
+tests/all: tests/CMakeFiles/test_garch_model.dir/all
+tests/all: tests/CMakeFiles/test_bsm_pricing.dir/all
+tests/all: tests/CMakeFiles/test_model_factory.dir/all
+tests/all: tests/CMakeFiles/test_strategy.dir/all
+.PHONY : tests/all
+
+# Recursive "preinstall" directory target.
+tests/preinstall:
+.PHONY : tests/preinstall
+
+# Recursive "clean" directory target.
+tests/clean: tests/CMakeFiles/test_datetime.dir/clean
+tests/clean: tests/CMakeFiles/test_marketdata.dir/clean
+tests/clean: tests/CMakeFiles/test_math.dir/clean
+tests/clean: tests/CMakeFiles/test_equity.dir/clean
+tests/clean: tests/CMakeFiles/test_options.dir/clean
+tests/clean: tests/CMakeFiles/test_volatility.dir/clean
+tests/clean: tests/CMakeFiles/test_instrument_factory.dir/clean
+tests/clean: tests/CMakeFiles/test_garch_model.dir/clean
+tests/clean: tests/CMakeFiles/test_bsm_pricing.dir/clean
+tests/clean: tests/CMakeFiles/test_model_factory.dir/clean
+tests/clean: tests/CMakeFiles/test_strategy.dir/clean
+.PHONY : tests/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/volatility_core.dir
@@ -81,12 +118,12 @@ clean: CMakeFiles/volatility_core.dir/clean
 CMakeFiles/volatility_core.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/volatility_core.dir/build.make CMakeFiles/volatility_core.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/volatility_core.dir/build.make CMakeFiles/volatility_core.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/yuvraj-doshi/Desktop/volatility-arbitrage-trading-system/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14 "Built target volatility_core"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/yuvraj-doshi/Desktop/volatility-arbitrage-trading-system/build/CMakeFiles --progress-num=23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41 "Built target volatility_core"
 .PHONY : CMakeFiles/volatility_core.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/volatility_core.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/yuvraj-doshi/Desktop/volatility-arbitrage-trading-system/build/CMakeFiles 14
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yuvraj-doshi/Desktop/volatility-arbitrage-trading-system/build/CMakeFiles 19
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/volatility_core.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/yuvraj-doshi/Desktop/volatility-arbitrage-trading-system/build/CMakeFiles 0
 .PHONY : CMakeFiles/volatility_core.dir/rule
@@ -99,6 +136,292 @@ volatility_core: CMakeFiles/volatility_core.dir/rule
 CMakeFiles/volatility_core.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/volatility_core.dir/build.make CMakeFiles/volatility_core.dir/clean
 .PHONY : CMakeFiles/volatility_core.dir/clean
+
+#=============================================================================
+# Target rules for target tests/CMakeFiles/test_datetime.dir
+
+# All Build rule for target.
+tests/CMakeFiles/test_datetime.dir/all: CMakeFiles/volatility_core.dir/all
+	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test_datetime.dir/build.make tests/CMakeFiles/test_datetime.dir/depend
+	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test_datetime.dir/build.make tests/CMakeFiles/test_datetime.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/yuvraj-doshi/Desktop/volatility-arbitrage-trading-system/build/CMakeFiles --progress-num=3,4 "Built target test_datetime"
+.PHONY : tests/CMakeFiles/test_datetime.dir/all
+
+# Build rule for subdir invocation for target.
+tests/CMakeFiles/test_datetime.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yuvraj-doshi/Desktop/volatility-arbitrage-trading-system/build/CMakeFiles 21
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/test_datetime.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yuvraj-doshi/Desktop/volatility-arbitrage-trading-system/build/CMakeFiles 0
+.PHONY : tests/CMakeFiles/test_datetime.dir/rule
+
+# Convenience name for target.
+test_datetime: tests/CMakeFiles/test_datetime.dir/rule
+.PHONY : test_datetime
+
+# clean rule for target.
+tests/CMakeFiles/test_datetime.dir/clean:
+	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test_datetime.dir/build.make tests/CMakeFiles/test_datetime.dir/clean
+.PHONY : tests/CMakeFiles/test_datetime.dir/clean
+
+#=============================================================================
+# Target rules for target tests/CMakeFiles/test_marketdata.dir
+
+# All Build rule for target.
+tests/CMakeFiles/test_marketdata.dir/all: CMakeFiles/volatility_core.dir/all
+	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test_marketdata.dir/build.make tests/CMakeFiles/test_marketdata.dir/depend
+	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test_marketdata.dir/build.make tests/CMakeFiles/test_marketdata.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/yuvraj-doshi/Desktop/volatility-arbitrage-trading-system/build/CMakeFiles --progress-num=11,12 "Built target test_marketdata"
+.PHONY : tests/CMakeFiles/test_marketdata.dir/all
+
+# Build rule for subdir invocation for target.
+tests/CMakeFiles/test_marketdata.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yuvraj-doshi/Desktop/volatility-arbitrage-trading-system/build/CMakeFiles 21
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/test_marketdata.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yuvraj-doshi/Desktop/volatility-arbitrage-trading-system/build/CMakeFiles 0
+.PHONY : tests/CMakeFiles/test_marketdata.dir/rule
+
+# Convenience name for target.
+test_marketdata: tests/CMakeFiles/test_marketdata.dir/rule
+.PHONY : test_marketdata
+
+# clean rule for target.
+tests/CMakeFiles/test_marketdata.dir/clean:
+	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test_marketdata.dir/build.make tests/CMakeFiles/test_marketdata.dir/clean
+.PHONY : tests/CMakeFiles/test_marketdata.dir/clean
+
+#=============================================================================
+# Target rules for target tests/CMakeFiles/test_math.dir
+
+# All Build rule for target.
+tests/CMakeFiles/test_math.dir/all: CMakeFiles/volatility_core.dir/all
+	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test_math.dir/build.make tests/CMakeFiles/test_math.dir/depend
+	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test_math.dir/build.make tests/CMakeFiles/test_math.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/yuvraj-doshi/Desktop/volatility-arbitrage-trading-system/build/CMakeFiles --progress-num=13,14 "Built target test_math"
+.PHONY : tests/CMakeFiles/test_math.dir/all
+
+# Build rule for subdir invocation for target.
+tests/CMakeFiles/test_math.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yuvraj-doshi/Desktop/volatility-arbitrage-trading-system/build/CMakeFiles 21
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/test_math.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yuvraj-doshi/Desktop/volatility-arbitrage-trading-system/build/CMakeFiles 0
+.PHONY : tests/CMakeFiles/test_math.dir/rule
+
+# Convenience name for target.
+test_math: tests/CMakeFiles/test_math.dir/rule
+.PHONY : test_math
+
+# clean rule for target.
+tests/CMakeFiles/test_math.dir/clean:
+	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test_math.dir/build.make tests/CMakeFiles/test_math.dir/clean
+.PHONY : tests/CMakeFiles/test_math.dir/clean
+
+#=============================================================================
+# Target rules for target tests/CMakeFiles/test_equity.dir
+
+# All Build rule for target.
+tests/CMakeFiles/test_equity.dir/all: CMakeFiles/volatility_core.dir/all
+	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test_equity.dir/build.make tests/CMakeFiles/test_equity.dir/depend
+	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test_equity.dir/build.make tests/CMakeFiles/test_equity.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/yuvraj-doshi/Desktop/volatility-arbitrage-trading-system/build/CMakeFiles --progress-num=5,6 "Built target test_equity"
+.PHONY : tests/CMakeFiles/test_equity.dir/all
+
+# Build rule for subdir invocation for target.
+tests/CMakeFiles/test_equity.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yuvraj-doshi/Desktop/volatility-arbitrage-trading-system/build/CMakeFiles 21
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/test_equity.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yuvraj-doshi/Desktop/volatility-arbitrage-trading-system/build/CMakeFiles 0
+.PHONY : tests/CMakeFiles/test_equity.dir/rule
+
+# Convenience name for target.
+test_equity: tests/CMakeFiles/test_equity.dir/rule
+.PHONY : test_equity
+
+# clean rule for target.
+tests/CMakeFiles/test_equity.dir/clean:
+	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test_equity.dir/build.make tests/CMakeFiles/test_equity.dir/clean
+.PHONY : tests/CMakeFiles/test_equity.dir/clean
+
+#=============================================================================
+# Target rules for target tests/CMakeFiles/test_options.dir
+
+# All Build rule for target.
+tests/CMakeFiles/test_options.dir/all: CMakeFiles/volatility_core.dir/all
+	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test_options.dir/build.make tests/CMakeFiles/test_options.dir/depend
+	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test_options.dir/build.make tests/CMakeFiles/test_options.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/yuvraj-doshi/Desktop/volatility-arbitrage-trading-system/build/CMakeFiles --progress-num=17,18 "Built target test_options"
+.PHONY : tests/CMakeFiles/test_options.dir/all
+
+# Build rule for subdir invocation for target.
+tests/CMakeFiles/test_options.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yuvraj-doshi/Desktop/volatility-arbitrage-trading-system/build/CMakeFiles 21
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/test_options.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yuvraj-doshi/Desktop/volatility-arbitrage-trading-system/build/CMakeFiles 0
+.PHONY : tests/CMakeFiles/test_options.dir/rule
+
+# Convenience name for target.
+test_options: tests/CMakeFiles/test_options.dir/rule
+.PHONY : test_options
+
+# clean rule for target.
+tests/CMakeFiles/test_options.dir/clean:
+	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test_options.dir/build.make tests/CMakeFiles/test_options.dir/clean
+.PHONY : tests/CMakeFiles/test_options.dir/clean
+
+#=============================================================================
+# Target rules for target tests/CMakeFiles/test_volatility.dir
+
+# All Build rule for target.
+tests/CMakeFiles/test_volatility.dir/all: CMakeFiles/volatility_core.dir/all
+	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test_volatility.dir/build.make tests/CMakeFiles/test_volatility.dir/depend
+	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test_volatility.dir/build.make tests/CMakeFiles/test_volatility.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/yuvraj-doshi/Desktop/volatility-arbitrage-trading-system/build/CMakeFiles --progress-num=21,22 "Built target test_volatility"
+.PHONY : tests/CMakeFiles/test_volatility.dir/all
+
+# Build rule for subdir invocation for target.
+tests/CMakeFiles/test_volatility.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yuvraj-doshi/Desktop/volatility-arbitrage-trading-system/build/CMakeFiles 21
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/test_volatility.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yuvraj-doshi/Desktop/volatility-arbitrage-trading-system/build/CMakeFiles 0
+.PHONY : tests/CMakeFiles/test_volatility.dir/rule
+
+# Convenience name for target.
+test_volatility: tests/CMakeFiles/test_volatility.dir/rule
+.PHONY : test_volatility
+
+# clean rule for target.
+tests/CMakeFiles/test_volatility.dir/clean:
+	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test_volatility.dir/build.make tests/CMakeFiles/test_volatility.dir/clean
+.PHONY : tests/CMakeFiles/test_volatility.dir/clean
+
+#=============================================================================
+# Target rules for target tests/CMakeFiles/test_instrument_factory.dir
+
+# All Build rule for target.
+tests/CMakeFiles/test_instrument_factory.dir/all: CMakeFiles/volatility_core.dir/all
+	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test_instrument_factory.dir/build.make tests/CMakeFiles/test_instrument_factory.dir/depend
+	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test_instrument_factory.dir/build.make tests/CMakeFiles/test_instrument_factory.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/yuvraj-doshi/Desktop/volatility-arbitrage-trading-system/build/CMakeFiles --progress-num=9,10 "Built target test_instrument_factory"
+.PHONY : tests/CMakeFiles/test_instrument_factory.dir/all
+
+# Build rule for subdir invocation for target.
+tests/CMakeFiles/test_instrument_factory.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yuvraj-doshi/Desktop/volatility-arbitrage-trading-system/build/CMakeFiles 21
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/test_instrument_factory.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yuvraj-doshi/Desktop/volatility-arbitrage-trading-system/build/CMakeFiles 0
+.PHONY : tests/CMakeFiles/test_instrument_factory.dir/rule
+
+# Convenience name for target.
+test_instrument_factory: tests/CMakeFiles/test_instrument_factory.dir/rule
+.PHONY : test_instrument_factory
+
+# clean rule for target.
+tests/CMakeFiles/test_instrument_factory.dir/clean:
+	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test_instrument_factory.dir/build.make tests/CMakeFiles/test_instrument_factory.dir/clean
+.PHONY : tests/CMakeFiles/test_instrument_factory.dir/clean
+
+#=============================================================================
+# Target rules for target tests/CMakeFiles/test_garch_model.dir
+
+# All Build rule for target.
+tests/CMakeFiles/test_garch_model.dir/all: CMakeFiles/volatility_core.dir/all
+	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test_garch_model.dir/build.make tests/CMakeFiles/test_garch_model.dir/depend
+	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test_garch_model.dir/build.make tests/CMakeFiles/test_garch_model.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/yuvraj-doshi/Desktop/volatility-arbitrage-trading-system/build/CMakeFiles --progress-num=7,8 "Built target test_garch_model"
+.PHONY : tests/CMakeFiles/test_garch_model.dir/all
+
+# Build rule for subdir invocation for target.
+tests/CMakeFiles/test_garch_model.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yuvraj-doshi/Desktop/volatility-arbitrage-trading-system/build/CMakeFiles 21
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/test_garch_model.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yuvraj-doshi/Desktop/volatility-arbitrage-trading-system/build/CMakeFiles 0
+.PHONY : tests/CMakeFiles/test_garch_model.dir/rule
+
+# Convenience name for target.
+test_garch_model: tests/CMakeFiles/test_garch_model.dir/rule
+.PHONY : test_garch_model
+
+# clean rule for target.
+tests/CMakeFiles/test_garch_model.dir/clean:
+	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test_garch_model.dir/build.make tests/CMakeFiles/test_garch_model.dir/clean
+.PHONY : tests/CMakeFiles/test_garch_model.dir/clean
+
+#=============================================================================
+# Target rules for target tests/CMakeFiles/test_bsm_pricing.dir
+
+# All Build rule for target.
+tests/CMakeFiles/test_bsm_pricing.dir/all: CMakeFiles/volatility_core.dir/all
+	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test_bsm_pricing.dir/build.make tests/CMakeFiles/test_bsm_pricing.dir/depend
+	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test_bsm_pricing.dir/build.make tests/CMakeFiles/test_bsm_pricing.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/yuvraj-doshi/Desktop/volatility-arbitrage-trading-system/build/CMakeFiles --progress-num=1,2 "Built target test_bsm_pricing"
+.PHONY : tests/CMakeFiles/test_bsm_pricing.dir/all
+
+# Build rule for subdir invocation for target.
+tests/CMakeFiles/test_bsm_pricing.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yuvraj-doshi/Desktop/volatility-arbitrage-trading-system/build/CMakeFiles 21
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/test_bsm_pricing.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yuvraj-doshi/Desktop/volatility-arbitrage-trading-system/build/CMakeFiles 0
+.PHONY : tests/CMakeFiles/test_bsm_pricing.dir/rule
+
+# Convenience name for target.
+test_bsm_pricing: tests/CMakeFiles/test_bsm_pricing.dir/rule
+.PHONY : test_bsm_pricing
+
+# clean rule for target.
+tests/CMakeFiles/test_bsm_pricing.dir/clean:
+	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test_bsm_pricing.dir/build.make tests/CMakeFiles/test_bsm_pricing.dir/clean
+.PHONY : tests/CMakeFiles/test_bsm_pricing.dir/clean
+
+#=============================================================================
+# Target rules for target tests/CMakeFiles/test_model_factory.dir
+
+# All Build rule for target.
+tests/CMakeFiles/test_model_factory.dir/all: CMakeFiles/volatility_core.dir/all
+	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test_model_factory.dir/build.make tests/CMakeFiles/test_model_factory.dir/depend
+	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test_model_factory.dir/build.make tests/CMakeFiles/test_model_factory.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/yuvraj-doshi/Desktop/volatility-arbitrage-trading-system/build/CMakeFiles --progress-num=15,16 "Built target test_model_factory"
+.PHONY : tests/CMakeFiles/test_model_factory.dir/all
+
+# Build rule for subdir invocation for target.
+tests/CMakeFiles/test_model_factory.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yuvraj-doshi/Desktop/volatility-arbitrage-trading-system/build/CMakeFiles 21
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/test_model_factory.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yuvraj-doshi/Desktop/volatility-arbitrage-trading-system/build/CMakeFiles 0
+.PHONY : tests/CMakeFiles/test_model_factory.dir/rule
+
+# Convenience name for target.
+test_model_factory: tests/CMakeFiles/test_model_factory.dir/rule
+.PHONY : test_model_factory
+
+# clean rule for target.
+tests/CMakeFiles/test_model_factory.dir/clean:
+	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test_model_factory.dir/build.make tests/CMakeFiles/test_model_factory.dir/clean
+.PHONY : tests/CMakeFiles/test_model_factory.dir/clean
+
+#=============================================================================
+# Target rules for target tests/CMakeFiles/test_strategy.dir
+
+# All Build rule for target.
+tests/CMakeFiles/test_strategy.dir/all: CMakeFiles/volatility_core.dir/all
+	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test_strategy.dir/build.make tests/CMakeFiles/test_strategy.dir/depend
+	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test_strategy.dir/build.make tests/CMakeFiles/test_strategy.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/yuvraj-doshi/Desktop/volatility-arbitrage-trading-system/build/CMakeFiles --progress-num=19,20 "Built target test_strategy"
+.PHONY : tests/CMakeFiles/test_strategy.dir/all
+
+# Build rule for subdir invocation for target.
+tests/CMakeFiles/test_strategy.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yuvraj-doshi/Desktop/volatility-arbitrage-trading-system/build/CMakeFiles 21
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/test_strategy.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yuvraj-doshi/Desktop/volatility-arbitrage-trading-system/build/CMakeFiles 0
+.PHONY : tests/CMakeFiles/test_strategy.dir/rule
+
+# Convenience name for target.
+test_strategy: tests/CMakeFiles/test_strategy.dir/rule
+.PHONY : test_strategy
+
+# clean rule for target.
+tests/CMakeFiles/test_strategy.dir/clean:
+	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test_strategy.dir/build.make tests/CMakeFiles/test_strategy.dir/clean
+.PHONY : tests/CMakeFiles/test_strategy.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

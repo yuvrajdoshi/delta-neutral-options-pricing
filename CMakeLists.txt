@@ -13,6 +13,7 @@ file(GLOB_RECURSE SOURCES
     "${CMAKE_SOURCE_DIR}/src/core/*.cpp"
     "${CMAKE_SOURCE_DIR}/src/instruments/*.cpp"
     "${CMAKE_SOURCE_DIR}/src/models/*.cpp"
+    "${CMAKE_SOURCE_DIR}/src/strategy/*.cpp"
 )
 
 # Add header files
@@ -20,6 +21,7 @@ file(GLOB_RECURSE HEADERS
     "${CMAKE_SOURCE_DIR}/include/core/*.h"
     "${CMAKE_SOURCE_DIR}/include/instruments/*.h"
     "${CMAKE_SOURCE_DIR}/include/models/*.h"
+    "${CMAKE_SOURCE_DIR}/include/strategy/*.h"
 )
 
 # Create a library for the core components
