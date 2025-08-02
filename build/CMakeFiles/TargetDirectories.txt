@@ -22,6 +22,7 @@
 /Users/y0d046w/volatility-arbitrage-trading-system/build/tests/CMakeFiles/test_delta_hedging_strategy.dir
 /Users/y0d046w/volatility-arbitrage-trading-system/build/tests/CMakeFiles/test_volatility_arbitrage_strategy.dir
 /Users/y0d046w/volatility-arbitrage-trading-system/build/tests/CMakeFiles/run_strategy_tests.dir
+/Users/y0d046w/volatility-arbitrage-trading-system/build/tests/CMakeFiles/test_backtest_engine.dir
 /Users/y0d046w/volatility-arbitrage-trading-system/build/tests/CMakeFiles/test.dir
 /Users/y0d046w/volatility-arbitrage-trading-system/build/tests/CMakeFiles/edit_cache.dir
 /Users/y0d046w/volatility-arbitrage-trading-system/build/tests/CMakeFiles/rebuild_cache.dir

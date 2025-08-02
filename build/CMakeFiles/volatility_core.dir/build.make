@@ -254,10 +254,24 @@ CMakeFiles/volatility_core.dir/src/models/ModelFactory.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/volatility_core.dir/src/models/ModelFactory.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/y0d046w/volatility-arbitrage-trading-system/src/models/ModelFactory.cpp -o CMakeFiles/volatility_core.dir/src/models/ModelFactory.cpp.s
 
+CMakeFiles/volatility_core.dir/src/strategy/BacktestEngine.cpp.o: CMakeFiles/volatility_core.dir/flags.make
+CMakeFiles/volatility_core.dir/src/strategy/BacktestEngine.cpp.o: /Users/y0d046w/volatility-arbitrage-trading-system/src/strategy/BacktestEngine.cpp
+CMakeFiles/volatility_core.dir/src/strategy/BacktestEngine.cpp.o: CMakeFiles/volatility_core.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/y0d046w/volatility-arbitrage-trading-system/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/volatility_core.dir/src/strategy/BacktestEngine.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/volatility_core.dir/src/strategy/BacktestEngine.cpp.o -MF CMakeFiles/volatility_core.dir/src/strategy/BacktestEngine.cpp.o.d -o CMakeFiles/volatility_core.dir/src/strategy/BacktestEngine.cpp.o -c /Users/y0d046w/volatility-arbitrage-trading-system/src/strategy/BacktestEngine.cpp
+
+CMakeFiles/volatility_core.dir/src/strategy/BacktestEngine.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/volatility_core.dir/src/strategy/BacktestEngine.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/y0d046w/volatility-arbitrage-trading-system/src/strategy/BacktestEngine.cpp > CMakeFiles/volatility_core.dir/src/strategy/BacktestEngine.cpp.i
+
+CMakeFiles/volatility_core.dir/src/strategy/BacktestEngine.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/volatility_core.dir/src/strategy/BacktestEngine.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/y0d046w/volatility-arbitrage-trading-system/src/strategy/BacktestEngine.cpp -o CMakeFiles/volatility_core.dir/src/strategy/BacktestEngine.cpp.s
+
 CMakeFiles/volatility_core.dir/src/strategy/BacktestParameters.cpp.o: CMakeFiles/volatility_core.dir/flags.make
 CMakeFiles/volatility_core.dir/src/strategy/BacktestParameters.cpp.o: /Users/y0d046w/volatility-arbitrage-trading-system/src/strategy/BacktestParameters.cpp
 CMakeFiles/volatility_core.dir/src/strategy/BacktestParameters.cpp.o: CMakeFiles/volatility_core.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/y0d046w/volatility-arbitrage-trading-system/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/volatility_core.dir/src/strategy/BacktestParameters.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/y0d046w/volatility-arbitrage-trading-system/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/volatility_core.dir/src/strategy/BacktestParameters.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/volatility_core.dir/src/strategy/BacktestParameters.cpp.o -MF CMakeFiles/volatility_core.dir/src/strategy/BacktestParameters.cpp.o.d -o CMakeFiles/volatility_core.dir/src/strategy/BacktestParameters.cpp.o -c /Users/y0d046w/volatility-arbitrage-trading-system/src/strategy/BacktestParameters.cpp
 
 CMakeFiles/volatility_core.dir/src/strategy/BacktestParameters.cpp.i: cmake_force
@@ -268,10 +282,24 @@ CMakeFiles/volatility_core.dir/src/strategy/BacktestParameters.cpp.s: cmake_forc
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/volatility_core.dir/src/strategy/BacktestParameters.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/y0d046w/volatility-arbitrage-trading-system/src/strategy/BacktestParameters.cpp -o CMakeFiles/volatility_core.dir/src/strategy/BacktestParameters.cpp.s
 
+CMakeFiles/volatility_core.dir/src/strategy/BacktestResult.cpp.o: CMakeFiles/volatility_core.dir/flags.make
+CMakeFiles/volatility_core.dir/src/strategy/BacktestResult.cpp.o: /Users/y0d046w/volatility-arbitrage-trading-system/src/strategy/BacktestResult.cpp
+CMakeFiles/volatility_core.dir/src/strategy/BacktestResult.cpp.o: CMakeFiles/volatility_core.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/y0d046w/volatility-arbitrage-trading-system/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/volatility_core.dir/src/strategy/BacktestResult.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/volatility_core.dir/src/strategy/BacktestResult.cpp.o -MF CMakeFiles/volatility_core.dir/src/strategy/BacktestResult.cpp.o.d -o CMakeFiles/volatility_core.dir/src/strategy/BacktestResult.cpp.o -c /Users/y0d046w/volatility-arbitrage-trading-system/src/strategy/BacktestResult.cpp
+
+CMakeFiles/volatility_core.dir/src/strategy/BacktestResult.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/volatility_core.dir/src/strategy/BacktestResult.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/y0d046w/volatility-arbitrage-trading-system/src/strategy/BacktestResult.cpp > CMakeFiles/volatility_core.dir/src/strategy/BacktestResult.cpp.i
+
+CMakeFiles/volatility_core.dir/src/strategy/BacktestResult.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/volatility_core.dir/src/strategy/BacktestResult.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/y0d046w/volatility-arbitrage-trading-system/src/strategy/BacktestResult.cpp -o CMakeFiles/volatility_core.dir/src/strategy/BacktestResult.cpp.s
+
 CMakeFiles/volatility_core.dir/src/strategy/DeltaHedgingStrategy.cpp.o: CMakeFiles/volatility_core.dir/flags.make
 CMakeFiles/volatility_core.dir/src/strategy/DeltaHedgingStrategy.cpp.o: /Users/y0d046w/volatility-arbitrage-trading-system/src/strategy/DeltaHedgingStrategy.cpp
 CMakeFiles/volatility_core.dir/src/strategy/DeltaHedgingStrategy.cpp.o: CMakeFiles/volatility_core.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/y0d046w/volatility-arbitrage-trading-system/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/volatility_core.dir/src/strategy/DeltaHedgingStrategy.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/y0d046w/volatility-arbitrage-trading-system/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/volatility_core.dir/src/strategy/DeltaHedgingStrategy.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/volatility_core.dir/src/strategy/DeltaHedgingStrategy.cpp.o -MF CMakeFiles/volatility_core.dir/src/strategy/DeltaHedgingStrategy.cpp.o.d -o CMakeFiles/volatility_core.dir/src/strategy/DeltaHedgingStrategy.cpp.o -c /Users/y0d046w/volatility-arbitrage-trading-system/src/strategy/DeltaHedgingStrategy.cpp
 
 CMakeFiles/volatility_core.dir/src/strategy/DeltaHedgingStrategy.cpp.i: cmake_force
@@ -285,7 +313,7 @@ CMakeFiles/volatility_core.dir/src/strategy/DeltaHedgingStrategy.cpp.s: cmake_fo
 CMakeFiles/volatility_core.dir/src/strategy/Portfolio.cpp.o: CMakeFiles/volatility_core.dir/flags.make
 CMakeFiles/volatility_core.dir/src/strategy/Portfolio.cpp.o: /Users/y0d046w/volatility-arbitrage-trading-system/src/strategy/Portfolio.cpp
 CMakeFiles/volatility_core.dir/src/strategy/Portfolio.cpp.o: CMakeFiles/volatility_core.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/y0d046w/volatility-arbitrage-trading-system/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/volatility_core.dir/src/strategy/Portfolio.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/y0d046w/volatility-arbitrage-trading-system/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/volatility_core.dir/src/strategy/Portfolio.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/volatility_core.dir/src/strategy/Portfolio.cpp.o -MF CMakeFiles/volatility_core.dir/src/strategy/Portfolio.cpp.o.d -o CMakeFiles/volatility_core.dir/src/strategy/Portfolio.cpp.o -c /Users/y0d046w/volatility-arbitrage-trading-system/src/strategy/Portfolio.cpp
 
 CMakeFiles/volatility_core.dir/src/strategy/Portfolio.cpp.i: cmake_force
@@ -299,7 +327,7 @@ CMakeFiles/volatility_core.dir/src/strategy/Portfolio.cpp.s: cmake_force
 CMakeFiles/volatility_core.dir/src/strategy/Position.cpp.o: CMakeFiles/volatility_core.dir/flags.make
 CMakeFiles/volatility_core.dir/src/strategy/Position.cpp.o: /Users/y0d046w/volatility-arbitrage-trading-system/src/strategy/Position.cpp
 CMakeFiles/volatility_core.dir/src/strategy/Position.cpp.o: CMakeFiles/volatility_core.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/y0d046w/volatility-arbitrage-trading-system/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/volatility_core.dir/src/strategy/Position.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/y0d046w/volatility-arbitrage-trading-system/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/volatility_core.dir/src/strategy/Position.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/volatility_core.dir/src/strategy/Position.cpp.o -MF CMakeFiles/volatility_core.dir/src/strategy/Position.cpp.o.d -o CMakeFiles/volatility_core.dir/src/strategy/Position.cpp.o -c /Users/y0d046w/volatility-arbitrage-trading-system/src/strategy/Position.cpp
 
 CMakeFiles/volatility_core.dir/src/strategy/Position.cpp.i: cmake_force
@@ -313,7 +341,7 @@ CMakeFiles/volatility_core.dir/src/strategy/Position.cpp.s: cmake_force
 CMakeFiles/volatility_core.dir/src/strategy/Signal.cpp.o: CMakeFiles/volatility_core.dir/flags.make
 CMakeFiles/volatility_core.dir/src/strategy/Signal.cpp.o: /Users/y0d046w/volatility-arbitrage-trading-system/src/strategy/Signal.cpp
 CMakeFiles/volatility_core.dir/src/strategy/Signal.cpp.o: CMakeFiles/volatility_core.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/y0d046w/volatility-arbitrage-trading-system/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/volatility_core.dir/src/strategy/Signal.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/y0d046w/volatility-arbitrage-trading-system/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/volatility_core.dir/src/strategy/Signal.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/volatility_core.dir/src/strategy/Signal.cpp.o -MF CMakeFiles/volatility_core.dir/src/strategy/Signal.cpp.o.d -o CMakeFiles/volatility_core.dir/src/strategy/Signal.cpp.o -c /Users/y0d046w/volatility-arbitrage-trading-system/src/strategy/Signal.cpp
 
 CMakeFiles/volatility_core.dir/src/strategy/Signal.cpp.i: cmake_force
@@ -324,10 +352,24 @@ CMakeFiles/volatility_core.dir/src/strategy/Signal.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/volatility_core.dir/src/strategy/Signal.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/y0d046w/volatility-arbitrage-trading-system/src/strategy/Signal.cpp -o CMakeFiles/volatility_core.dir/src/strategy/Signal.cpp.s
 
+CMakeFiles/volatility_core.dir/src/strategy/Trade.cpp.o: CMakeFiles/volatility_core.dir/flags.make
+CMakeFiles/volatility_core.dir/src/strategy/Trade.cpp.o: /Users/y0d046w/volatility-arbitrage-trading-system/src/strategy/Trade.cpp
+CMakeFiles/volatility_core.dir/src/strategy/Trade.cpp.o: CMakeFiles/volatility_core.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/y0d046w/volatility-arbitrage-trading-system/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/volatility_core.dir/src/strategy/Trade.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/volatility_core.dir/src/strategy/Trade.cpp.o -MF CMakeFiles/volatility_core.dir/src/strategy/Trade.cpp.o.d -o CMakeFiles/volatility_core.dir/src/strategy/Trade.cpp.o -c /Users/y0d046w/volatility-arbitrage-trading-system/src/strategy/Trade.cpp
+
+CMakeFiles/volatility_core.dir/src/strategy/Trade.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/volatility_core.dir/src/strategy/Trade.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/y0d046w/volatility-arbitrage-trading-system/src/strategy/Trade.cpp > CMakeFiles/volatility_core.dir/src/strategy/Trade.cpp.i
+
+CMakeFiles/volatility_core.dir/src/strategy/Trade.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/volatility_core.dir/src/strategy/Trade.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/y0d046w/volatility-arbitrage-trading-system/src/strategy/Trade.cpp -o CMakeFiles/volatility_core.dir/src/strategy/Trade.cpp.s
+
 CMakeFiles/volatility_core.dir/src/strategy/VolatilityArbitrageStrategy.cpp.o: CMakeFiles/volatility_core.dir/flags.make
 CMakeFiles/volatility_core.dir/src/strategy/VolatilityArbitrageStrategy.cpp.o: /Users/y0d046w/volatility-arbitrage-trading-system/src/strategy/VolatilityArbitrageStrategy.cpp
 CMakeFiles/volatility_core.dir/src/strategy/VolatilityArbitrageStrategy.cpp.o: CMakeFiles/volatility_core.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/y0d046w/volatility-arbitrage-trading-system/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/volatility_core.dir/src/strategy/VolatilityArbitrageStrategy.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/y0d046w/volatility-arbitrage-trading-system/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/volatility_core.dir/src/strategy/VolatilityArbitrageStrategy.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/volatility_core.dir/src/strategy/VolatilityArbitrageStrategy.cpp.o -MF CMakeFiles/volatility_core.dir/src/strategy/VolatilityArbitrageStrategy.cpp.o.d -o CMakeFiles/volatility_core.dir/src/strategy/VolatilityArbitrageStrategy.cpp.o -c /Users/y0d046w/volatility-arbitrage-trading-system/src/strategy/VolatilityArbitrageStrategy.cpp
 
 CMakeFiles/volatility_core.dir/src/strategy/VolatilityArbitrageStrategy.cpp.i: cmake_force
@@ -341,7 +383,7 @@ CMakeFiles/volatility_core.dir/src/strategy/VolatilityArbitrageStrategy.cpp.s: c
 CMakeFiles/volatility_core.dir/src/strategy/VolatilitySpreadSignal.cpp.o: CMakeFiles/volatility_core.dir/flags.make
 CMakeFiles/volatility_core.dir/src/strategy/VolatilitySpreadSignal.cpp.o: /Users/y0d046w/volatility-arbitrage-trading-system/src/strategy/VolatilitySpreadSignal.cpp
 CMakeFiles/volatility_core.dir/src/strategy/VolatilitySpreadSignal.cpp.o: CMakeFiles/volatility_core.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/y0d046w/volatility-arbitrage-trading-system/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/volatility_core.dir/src/strategy/VolatilitySpreadSignal.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/y0d046w/volatility-arbitrage-trading-system/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/volatility_core.dir/src/strategy/VolatilitySpreadSignal.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/volatility_core.dir/src/strategy/VolatilitySpreadSignal.cpp.o -MF CMakeFiles/volatility_core.dir/src/strategy/VolatilitySpreadSignal.cpp.o.d -o CMakeFiles/volatility_core.dir/src/strategy/VolatilitySpreadSignal.cpp.o -c /Users/y0d046w/volatility-arbitrage-trading-system/src/strategy/VolatilitySpreadSignal.cpp
 
 CMakeFiles/volatility_core.dir/src/strategy/VolatilitySpreadSignal.cpp.i: cmake_force
@@ -367,11 +409,14 @@ volatility_core_OBJECTS = \
 "CMakeFiles/volatility_core.dir/src/models/GARCHModel.cpp.o" \
 "CMakeFiles/volatility_core.dir/src/models/Greeks.cpp.o" \
 "CMakeFiles/volatility_core.dir/src/models/ModelFactory.cpp.o" \
+"CMakeFiles/volatility_core.dir/src/strategy/BacktestEngine.cpp.o" \
 "CMakeFiles/volatility_core.dir/src/strategy/BacktestParameters.cpp.o" \
+"CMakeFiles/volatility_core.dir/src/strategy/BacktestResult.cpp.o" \
 "CMakeFiles/volatility_core.dir/src/strategy/DeltaHedgingStrategy.cpp.o" \
 "CMakeFiles/volatility_core.dir/src/strategy/Portfolio.cpp.o" \
 "CMakeFiles/volatility_core.dir/src/strategy/Position.cpp.o" \
 "CMakeFiles/volatility_core.dir/src/strategy/Signal.cpp.o" \
+"CMakeFiles/volatility_core.dir/src/strategy/Trade.cpp.o" \
 "CMakeFiles/volatility_core.dir/src/strategy/VolatilityArbitrageStrategy.cpp.o" \
 "CMakeFiles/volatility_core.dir/src/strategy/VolatilitySpreadSignal.cpp.o"
 
@@ -391,16 +436,19 @@ libvolatility_core.a: CMakeFiles/volatility_core.dir/src/models/BSMPricingModel.
 libvolatility_core.a: CMakeFiles/volatility_core.dir/src/models/GARCHModel.cpp.o
 libvolatility_core.a: CMakeFiles/volatility_core.dir/src/models/Greeks.cpp.o
 libvolatility_core.a: CMakeFiles/volatility_core.dir/src/models/ModelFactory.cpp.o
+libvolatility_core.a: CMakeFiles/volatility_core.dir/src/strategy/BacktestEngine.cpp.o
 libvolatility_core.a: CMakeFiles/volatility_core.dir/src/strategy/BacktestParameters.cpp.o
+libvolatility_core.a: CMakeFiles/volatility_core.dir/src/strategy/BacktestResult.cpp.o
 libvolatility_core.a: CMakeFiles/volatility_core.dir/src/strategy/DeltaHedgingStrategy.cpp.o
 libvolatility_core.a: CMakeFiles/volatility_core.dir/src/strategy/Portfolio.cpp.o
 libvolatility_core.a: CMakeFiles/volatility_core.dir/src/strategy/Position.cpp.o
 libvolatility_core.a: CMakeFiles/volatility_core.dir/src/strategy/Signal.cpp.o
+libvolatility_core.a: CMakeFiles/volatility_core.dir/src/strategy/Trade.cpp.o
 libvolatility_core.a: CMakeFiles/volatility_core.dir/src/strategy/VolatilityArbitrageStrategy.cpp.o
 libvolatility_core.a: CMakeFiles/volatility_core.dir/src/strategy/VolatilitySpreadSignal.cpp.o
 libvolatility_core.a: CMakeFiles/volatility_core.dir/build.make
 libvolatility_core.a: CMakeFiles/volatility_core.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/y0d046w/volatility-arbitrage-trading-system/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Linking CXX static library libvolatility_core.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/y0d046w/volatility-arbitrage-trading-system/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Linking CXX static library libvolatility_core.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/volatility_core.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/volatility_core.dir/link.txt --verbose=$(VERBOSE)
 

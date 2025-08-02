@@ -399,6 +399,19 @@ run_strategy_tests/fast:
 	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/run_strategy_tests.dir/build.make tests/CMakeFiles/run_strategy_tests.dir/build
 .PHONY : run_strategy_tests/fast
 
+#=============================================================================
+# Target rules for targets named test_backtest_engine
+
+# Build rule for target.
+test_backtest_engine: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_backtest_engine
+.PHONY : test_backtest_engine
+
+# fast build rule for target.
+test_backtest_engine/fast:
+	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/test_backtest_engine.dir/build.make tests/CMakeFiles/test_backtest_engine.dir/build
+.PHONY : test_backtest_engine/fast
+
 src/core/DateTime.o: src/core/DateTime.cpp.o
 .PHONY : src/core/DateTime.o
 
@@ -711,6 +724,30 @@ src/models/ModelFactory.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/volatility_core.dir/build.make CMakeFiles/volatility_core.dir/src/models/ModelFactory.cpp.s
 .PHONY : src/models/ModelFactory.cpp.s
 
+src/strategy/BacktestEngine.o: src/strategy/BacktestEngine.cpp.o
+.PHONY : src/strategy/BacktestEngine.o
+
+# target to build an object file
+src/strategy/BacktestEngine.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/volatility_core.dir/build.make CMakeFiles/volatility_core.dir/src/strategy/BacktestEngine.cpp.o
+.PHONY : src/strategy/BacktestEngine.cpp.o
+
+src/strategy/BacktestEngine.i: src/strategy/BacktestEngine.cpp.i
+.PHONY : src/strategy/BacktestEngine.i
+
+# target to preprocess a source file
+src/strategy/BacktestEngine.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/volatility_core.dir/build.make CMakeFiles/volatility_core.dir/src/strategy/BacktestEngine.cpp.i
+.PHONY : src/strategy/BacktestEngine.cpp.i
+
+src/strategy/BacktestEngine.s: src/strategy/BacktestEngine.cpp.s
+.PHONY : src/strategy/BacktestEngine.s
+
+# target to generate assembly for a file
+src/strategy/BacktestEngine.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/volatility_core.dir/build.make CMakeFiles/volatility_core.dir/src/strategy/BacktestEngine.cpp.s
+.PHONY : src/strategy/BacktestEngine.cpp.s
+
 src/strategy/BacktestParameters.o: src/strategy/BacktestParameters.cpp.o
 .PHONY : src/strategy/BacktestParameters.o
 
@@ -734,6 +771,30 @@ src/strategy/BacktestParameters.s: src/strategy/BacktestParameters.cpp.s
 src/strategy/BacktestParameters.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/volatility_core.dir/build.make CMakeFiles/volatility_core.dir/src/strategy/BacktestParameters.cpp.s
 .PHONY : src/strategy/BacktestParameters.cpp.s
+
+src/strategy/BacktestResult.o: src/strategy/BacktestResult.cpp.o
+.PHONY : src/strategy/BacktestResult.o
+
+# target to build an object file
+src/strategy/BacktestResult.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/volatility_core.dir/build.make CMakeFiles/volatility_core.dir/src/strategy/BacktestResult.cpp.o
+.PHONY : src/strategy/BacktestResult.cpp.o
+
+src/strategy/BacktestResult.i: src/strategy/BacktestResult.cpp.i
+.PHONY : src/strategy/BacktestResult.i
+
+# target to preprocess a source file
+src/strategy/BacktestResult.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/volatility_core.dir/build.make CMakeFiles/volatility_core.dir/src/strategy/BacktestResult.cpp.i
+.PHONY : src/strategy/BacktestResult.cpp.i
+
+src/strategy/BacktestResult.s: src/strategy/BacktestResult.cpp.s
+.PHONY : src/strategy/BacktestResult.s
+
+# target to generate assembly for a file
+src/strategy/BacktestResult.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/volatility_core.dir/build.make CMakeFiles/volatility_core.dir/src/strategy/BacktestResult.cpp.s
+.PHONY : src/strategy/BacktestResult.cpp.s
 
 src/strategy/DeltaHedgingStrategy.o: src/strategy/DeltaHedgingStrategy.cpp.o
 .PHONY : src/strategy/DeltaHedgingStrategy.o
@@ -831,6 +892,30 @@ src/strategy/Signal.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/volatility_core.dir/build.make CMakeFiles/volatility_core.dir/src/strategy/Signal.cpp.s
 .PHONY : src/strategy/Signal.cpp.s
 
+src/strategy/Trade.o: src/strategy/Trade.cpp.o
+.PHONY : src/strategy/Trade.o
+
+# target to build an object file
+src/strategy/Trade.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/volatility_core.dir/build.make CMakeFiles/volatility_core.dir/src/strategy/Trade.cpp.o
+.PHONY : src/strategy/Trade.cpp.o
+
+src/strategy/Trade.i: src/strategy/Trade.cpp.i
+.PHONY : src/strategy/Trade.i
+
+# target to preprocess a source file
+src/strategy/Trade.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/volatility_core.dir/build.make CMakeFiles/volatility_core.dir/src/strategy/Trade.cpp.i
+.PHONY : src/strategy/Trade.cpp.i
+
+src/strategy/Trade.s: src/strategy/Trade.cpp.s
+.PHONY : src/strategy/Trade.s
+
+# target to generate assembly for a file
+src/strategy/Trade.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/volatility_core.dir/build.make CMakeFiles/volatility_core.dir/src/strategy/Trade.cpp.s
+.PHONY : src/strategy/Trade.cpp.s
+
 src/strategy/VolatilityArbitrageStrategy.o: src/strategy/VolatilityArbitrageStrategy.cpp.o
 .PHONY : src/strategy/VolatilityArbitrageStrategy.o
 
@@ -889,6 +974,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... test"
 	@echo "... run_strategy_tests"
+	@echo "... test_backtest_engine"
 	@echo "... test_backtest_parameters"
 	@echo "... test_bsm_pricing"
 	@echo "... test_datetime"
@@ -948,9 +1034,15 @@ help:
 	@echo "... src/models/ModelFactory.o"
 	@echo "... src/models/ModelFactory.i"
 	@echo "... src/models/ModelFactory.s"
+	@echo "... src/strategy/BacktestEngine.o"
+	@echo "... src/strategy/BacktestEngine.i"
+	@echo "... src/strategy/BacktestEngine.s"
 	@echo "... src/strategy/BacktestParameters.o"
 	@echo "... src/strategy/BacktestParameters.i"
 	@echo "... src/strategy/BacktestParameters.s"
+	@echo "... src/strategy/BacktestResult.o"
+	@echo "... src/strategy/BacktestResult.i"
+	@echo "... src/strategy/BacktestResult.s"
 	@echo "... src/strategy/DeltaHedgingStrategy.o"
 	@echo "... src/strategy/DeltaHedgingStrategy.i"
 	@echo "... src/strategy/DeltaHedgingStrategy.s"
@@ -963,6 +1055,9 @@ help:
 	@echo "... src/strategy/Signal.o"
 	@echo "... src/strategy/Signal.i"
 	@echo "... src/strategy/Signal.s"
+	@echo "... src/strategy/Trade.o"
+	@echo "... src/strategy/Trade.i"
+	@echo "... src/strategy/Trade.s"
 	@echo "... src/strategy/VolatilityArbitrageStrategy.o"
 	@echo "... src/strategy/VolatilityArbitrageStrategy.i"
 	@echo "... src/strategy/VolatilityArbitrageStrategy.s"

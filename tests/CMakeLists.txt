@@ -35,6 +35,9 @@ create_test(test_volatility_arbitrage_strategy test_volatility_arbitrage_strateg
 # Strategy test suite runner
 create_test(run_strategy_tests run_strategy_tests.cpp)
 
+# Backtesting engine tests
+create_test(test_backtest_engine test_backtest_engine.cpp)
+
 # Set test properties
 set_tests_properties(
     test_datetime test_marketdata test_math test_equity test_options 
@@ -43,6 +46,7 @@ set_tests_properties(
     test_backtest_parameters test_portfolio test_position test_signal
     test_volatility_spread_signal test_delta_hedging_strategy 
     test_volatility_arbitrage_strategy run_strategy_tests
+    test_backtest_engine
     PROPERTIES 
-    TIMEOUT 30
+    TIMEOUT 60
 )
