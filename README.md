@@ -177,7 +177,7 @@ plt.show()
 - [x] Option pricing and Greeks calculation
 - [x] Signal generation and portfolio management
 - [x] Backtesting engine
-- [ ] C++/Python integration
+- [x] C++/Python integration
 - [ ] Analysis framework
 - [ ] Strategy implementation and testing
 - [ ] Comprehensive backtesting and analysis

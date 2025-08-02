@@ -1,5 +1,5 @@
 #include "instruments/Option.h"
-#include "core/Math.h"
+#include "core/MathUtils.h"
 #include "core/VolatilityEstimator.h"
 #include <cmath>
 #include <sstream>

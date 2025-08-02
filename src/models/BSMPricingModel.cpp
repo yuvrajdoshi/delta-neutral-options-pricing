@@ -1,6 +1,6 @@
 #include "models/BSMPricingModel.h"
 #include "instruments/Option.h"
-#include "core/Math.h"
+#include "core/MathUtils.h"
 #include <cmath>
 #include <stdexcept>
 

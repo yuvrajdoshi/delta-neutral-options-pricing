@@ -1,4 +1,4 @@
-#include "core/Math.h"
+#include "core/MathUtils.h"
 #include <cmath>
 #include <numeric>
 #include <stdexcept>

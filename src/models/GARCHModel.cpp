@@ -1,5 +1,5 @@
 #include "models/GARCHModel.h"
-#include "core/Math.h"
+#include "core/MathUtils.h"
 #include "core/DateTime.h"
 #include <cmath>
 #include <stdexcept>

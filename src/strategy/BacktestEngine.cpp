@@ -1,5 +1,5 @@
 #include "strategy/BacktestEngine.h"
-#include "core/Math.h"
+#include "core/MathUtils.h"
 #include <iostream>
 #include <fstream>
 #include <sstream>
