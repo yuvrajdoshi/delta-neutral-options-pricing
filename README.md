@@ -172,11 +172,11 @@ plt.show()
 ## Development Roadmap
 
 - [x] Project setup and foundation layers
-- [x] Financial instruments implementation
+- [x] Financial instruments implementation  
 - [x] Volatility models implementation
 - [x] Option pricing and Greeks calculation
 - [x] Signal generation and portfolio management
-- [ ] Backtesting engine
+- [x] Backtesting engine
 - [ ] C++/Python integration
 - [ ] Analysis framework
 - [ ] Strategy implementation and testing
