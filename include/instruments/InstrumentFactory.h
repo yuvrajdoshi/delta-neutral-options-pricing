@@ -34,6 +34,9 @@ public:
                                                      const core::DateTime& expiryDate, double strike);
     static std::unique_ptr<Option> createAmericanPut(const std::string& underlyingSymbol, 
                                                     const core::DateTime& expiryDate, double strike);
+    
+    // Clone method for copying instruments
+    static std::unique_ptr<Instrument> clone(const Instrument& instrument);
 };
 
 } // namespace instruments

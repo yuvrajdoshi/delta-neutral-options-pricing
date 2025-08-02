@@ -1,5 +1,5 @@
 #include "core/VolatilityEstimator.h"
-#include "core/Math.h"
+#include "core/MathUtils.h"
 #include <cmath>
 #include <algorithm>
 #include <stdexcept>

@@ -58,3 +58,32 @@ Thumbs.db
 # Temporary files
 *.tmp
 *.temp
+
+# Data files (cache and generated data)
+data_cache/
+data/*.csv
+*.csv
+
+# Results and analysis files
+python/strategy/backtest_results/images/
+python/strategy/backtest_results/*.csv
+*.png
+*.jpg
+*.jpeg
+
+# Log files
+*.log
+
+# Analysis reports
+*_report.txt
+*_summary.txt
+*_analysis.txt
+grid_search_results.json
+
+# Backup files
+*.bak
+*.backup
+
+# Configuration files with sensitive data
+config.ini
+settings.json
