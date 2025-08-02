@@ -3,24 +3,24 @@
 namespace VolatilityArbitrage {
 
 BacktestParameters::BacktestParameters() 
-    : startDate_(DateTime()), endDate_(DateTime()), initialCapital_(100000.0),
+    : startDate_(core::DateTime()), endDate_(core::DateTime()), initialCapital_(100000.0),
       includeTransactionCosts_(false), transactionCostPerTrade_(0.0), 
       transactionCostPercentage_(0.0) {
 }
 
-DateTime BacktestParameters::getStartDate() const {
+core::DateTime BacktestParameters::getStartDate() const {
     return startDate_;
 }
 
-void BacktestParameters::setStartDate(const DateTime& startDate) {
+void BacktestParameters::setStartDate(const core::DateTime& startDate) {
     startDate_ = startDate;
 }
 
-DateTime BacktestParameters::getEndDate() const {
+core::DateTime BacktestParameters::getEndDate() const {
     return endDate_;
 }
 
-void BacktestParameters::setEndDate(const DateTime& endDate) {
+void BacktestParameters::setEndDate(const core::DateTime& endDate) {
     endDate_ = endDate;
 }
 

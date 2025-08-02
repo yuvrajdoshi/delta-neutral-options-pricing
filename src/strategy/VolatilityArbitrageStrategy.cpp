@@ -5,8 +5,8 @@
 namespace VolatilityArbitrage {
 
 VolatilityArbitrageStrategy::VolatilityArbitrageStrategy(
-    std::unique_ptr<VolatilityModel> volatilityModel,
-    std::unique_ptr<SignalGenerator> signalGenerator,
+    std::unique_ptr<models::VolatilityModel> volatilityModel,
+    std::unique_ptr< SignalGenerator> signalGenerator,
     std::unique_ptr<HedgingStrategy> hedgingStrategy,
     int holdingPeriod)
     : volatilityModel_(std::move(volatilityModel)),
@@ -25,7 +25,7 @@ void VolatilityArbitrageStrategy::initialize(const BacktestParameters& params) {
     daysInPosition_.clear();
 }
 
-void VolatilityArbitrageStrategy::processBar(const MarketData& data) {
+void VolatilityArbitrageStrategy::processBar(const core::MarketData& data) {
     // Update positions (check for exits due to holding period)
     updatePositions(data);
     
@@ -34,8 +34,7 @@ void VolatilityArbitrageStrategy::processBar(const MarketData& data) {
     // In a real system, this would query available options from market data
     
     // For demo purposes, let's create a European call option at-the-money
-    DateTime expiry = data.getTimestamp();
-    expiry.addDays(30); // 30 days to expiry
+    core::DateTime expiry = data.getTimestamp() + core::TimeDelta(30); // 30 days to expiry
     
     auto option = instruments::InstrumentFactory::createEuropeanCall(
         data.getSymbol(), expiry, data.getClose());
@@ -73,7 +72,7 @@ void VolatilityArbitrageStrategy::setHoldingPeriod(int days) {
     holdingPeriod_ = days;
 }
 
-void VolatilityArbitrageStrategy::processSignal(const Signal& signal, const MarketData& data) {
+void VolatilityArbitrageStrategy::processSignal(const Signal& signal, const core::MarketData& data) {
     // Check if we already have a position in this instrument
     auto it = activePositions_.find(signal.instrumentId);
     
@@ -93,8 +92,7 @@ void VolatilityArbitrageStrategy::processSignal(const Signal& signal, const Mark
     if (signal.type == Signal::Type::BUY || signal.type == Signal::Type::SELL) {
         // Create the instrument for this signal
         // For demo, assume it's an option with known characteristics
-        DateTime expiry = data.getTimestamp();
-        expiry.addDays(30);
+        core::DateTime expiry = data.getTimestamp() + core::TimeDelta(30);
         
         std::unique_ptr<instruments::Instrument> instrument;
         if (signal.type == Signal::Type::BUY) {
@@ -137,7 +135,7 @@ void VolatilityArbitrageStrategy::processSignal(const Signal& signal, const Mark
     }
 }
 
-void VolatilityArbitrageStrategy::updatePositions(const MarketData& data) {
+void VolatilityArbitrageStrategy::updatePositions(const core::MarketData& data) {
     // Update days in position for all active positions
     for (auto& pair : daysInPosition_) {
         pair.second++;
@@ -180,7 +178,7 @@ void VolatilityArbitrageStrategy::updatePositions(const MarketData& data) {
     }
 }
 
-void VolatilityArbitrageStrategy::applyHedging(const MarketData& data) {
+void VolatilityArbitrageStrategy::applyHedging(const core::MarketData& data) {
     if (hedgingStrategy_) {
         hedgingStrategy_->applyHedge(portfolio_, data);
     }

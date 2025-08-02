@@ -12,7 +12,7 @@ namespace VolatilityArbitrage {
 
 class VolatilityArbitrageStrategy : public Strategy {
 private:
-    std::unique_ptr<VolatilityModel> volatilityModel_;
+    std::unique_ptr<models::VolatilityModel> volatilityModel_;
     std::unique_ptr<SignalGenerator> signalGenerator_;
     std::unique_ptr<HedgingStrategy> hedgingStrategy_;
     Portfolio portfolio_;
@@ -23,7 +23,7 @@ private:
 public:
     // Constructors
     VolatilityArbitrageStrategy(
-        std::unique_ptr<VolatilityModel> volatilityModel,
+        std::unique_ptr<models::VolatilityModel> volatilityModel,
         std::unique_ptr<SignalGenerator> signalGenerator,
         std::unique_ptr<HedgingStrategy> hedgingStrategy,
         int holdingPeriod = 30
@@ -31,7 +31,7 @@ public:
     
     // Strategy interface implementation
     void initialize(const BacktestParameters& params) override;
-    void processBar(const MarketData& data) override;
+    void processBar(const core::MarketData& data) override;
     Portfolio getPortfolio() const override;
     std::unique_ptr<Strategy> clone() const override;
     
@@ -41,9 +41,9 @@ public:
     
 private:
     // Helper methods
-    void processSignal(const Signal& signal, const MarketData& data);
-    void updatePositions(const MarketData& data);
-    void applyHedging(const MarketData& data);
+    void processSignal(const Signal& signal, const core::MarketData& data);
+    void updatePositions(const core::MarketData& data);
+    void applyHedging(const core::MarketData& data);
 };
 
 } // namespace VolatilityArbitrage

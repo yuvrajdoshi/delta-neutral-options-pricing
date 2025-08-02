@@ -14,7 +14,7 @@ public:
     
     // Core functionality
     virtual void initialize(const BacktestParameters& params) = 0;
-    virtual void processBar(const MarketData& data) = 0;
+    virtual void processBar(const core::MarketData& data) = 0;
     virtual Portfolio getPortfolio() const = 0;
     
     // Clone pattern

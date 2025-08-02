@@ -8,8 +8,8 @@ namespace VolatilityArbitrage {
 
 class BacktestParameters {
 private:
-    DateTime startDate_;
-    DateTime endDate_;
+    core::DateTime startDate_;
+    core::DateTime endDate_;
     double initialCapital_;
     std::vector<std::string> symbols_;
     bool includeTransactionCosts_;
@@ -21,10 +21,10 @@ public:
     BacktestParameters();
     
     // Accessors and modifiers
-    DateTime getStartDate() const;
-    void setStartDate(const DateTime& startDate);
-    DateTime getEndDate() const;
-    void setEndDate(const DateTime& endDate);
+    core::DateTime getStartDate() const;
+    void setStartDate(const core::DateTime& startDate);
+    core::DateTime getEndDate() const;
+    void setEndDate(const core::DateTime& endDate);
     double getInitialCapital() const;
     void setInitialCapital(double capital);
     std::vector<std::string> getSymbols() const;

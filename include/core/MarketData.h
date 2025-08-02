@@ -11,7 +11,7 @@ namespace core {
     class MarketData {
     private:
         std::string symbol_;
-        DateTime timestamp_;
+        core::DateTime timestamp_;
         double open_;
         double high_;
         double low_;
