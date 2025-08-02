@@ -1,0 +1,38 @@
+============================================================
+VOLATILITY ARBITRAGE STRATEGY ANALYSIS REPORT
+============================================================
+
+PERFORMANCE METRICS
+------------------------------
+Total Return:          97.98%
+Sharpe Ratio:            1.45
+Sortino Ratio:           2.43
+Calmar Ratio:            6.53
+Volatility:            25.80%
+Skewness:                0.61
+Kurtosis:                3.23
+
+RISK METRICS
+------------------------------
+Max Drawdown:         -15.00%
+Avg Drawdown:          -5.03%
+Avg DD Length:             17 periods
+VaR (95%):             -2.52%
+CVaR (95%):            -3.21%
+
+TRADE ANALYSIS
+------------------------------
+Total Trades:             156
+Win Rate:              58.33%
+Avg Win:               157.41
+Avg Loss:             -139.20
+Profit Factor:           1.58
+
+MAJOR DRAWDOWNS (>5%)
+------------------------------
+Drawdown 1:         -5.02% (1 periods)
+Drawdown 2:         -5.93% (5 periods)
+Drawdown 3:         -5.01% (1 periods)
+Drawdown 4:         -5.09% (1 periods)
+Drawdown 5:         -7.82% (28 periods)
+============================================================

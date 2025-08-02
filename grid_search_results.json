@@ -1,0 +1,1409 @@
+{
+  "metadata": {
+    "timestamp": "2025-08-02 20:29:01",
+    "objective_function": "sharpe_ratio",
+    "total_combinations": 100
+  },
+  "results": [
+    {
+      "parameters": {
+        "lookback_window": 20,
+        "volatility_threshold": 0.15,
+        "hedge_ratio": 0.7
+      },
+      "param_string": "[('hedge_ratio', 0.7), ('lookback_window', 20), ('volatility_threshold', 0.15)]",
+      "total_return": 0.3997198368529995,
+      "sharpe_ratio": 3.3887264651720233,
+      "sortino_ratio": 4.066471758206427,
+      "max_drawdown": 0.1735698591398707,
+      "calmar_ratio": 2.3029334634124847,
+      "volatility": 0.11795576921334912
+    },
+    {
+      "parameters": {
+        "lookback_window": 35,
+        "volatility_threshold": 0.15,
+        "hedge_ratio": 0.9
+      },
+      "param_string": "[('hedge_ratio', 0.9), ('lookback_window', 35), ('volatility_threshold', 0.15)]",
+      "total_return": 0.39222771054442673,
+      "sharpe_ratio": 3.238402378571715,
+      "sortino_ratio": 3.886082854286058,
+      "max_drawdown": 0.15953431845438049,
+      "calmar_ratio": 2.458578908566221,
+      "volatility": 0.12111765762641802
+    },
+    {
+      "parameters": {
+        "lookback_window": 15,
+        "volatility_threshold": 0.15,
+        "hedge_ratio": 0.6
+      },
+      "param_string": "[('hedge_ratio', 0.6), ('lookback_window', 15), ('volatility_threshold', 0.15)]",
+      "total_return": 0.32753203280952153,
+      "sharpe_ratio": 3.0019216260558,
+      "sortino_ratio": 3.6023059512669597,
+      "max_drawdown": 0.16754030160979408,
+      "calmar_ratio": 1.9549447485916107,
+      "volatility": 0.10910745635949969
+    },
+    {
+      "parameters": {
+        "lookback_window": 35,
+        "volatility_threshold": 0.1,
+        "hedge_ratio": 0.7
+      },
+      "param_string": "[('hedge_ratio', 0.7), ('lookback_window', 35), ('volatility_threshold', 0.1)]",
+      "total_return": 0.30023371342956534,
+      "sharpe_ratio": 2.524806867357762,
+      "sortino_ratio": 3.029768240829314,
+      "max_drawdown": 0.14853944464638427,
+      "calmar_ratio": 2.021238965476862,
+      "volatility": 0.1189135364416064
+    },
+    {
+      "parameters": {
+        "lookback_window": 20,
+        "volatility_threshold": 0.1,
+        "hedge_ratio": 0.9
+      },
+      "param_string": "[('hedge_ratio', 0.9), ('lookback_window', 20), ('volatility_threshold', 0.1)]",
+      "total_return": 0.35023228746788293,
+      "sharpe_ratio": 2.4682567012355223,
+      "sortino_ratio": 2.961908041482627,
+      "max_drawdown": 0.2435009486974828,
+      "calmar_ratio": 1.4383200120628667,
+      "volatility": 0.14189459600882234
+    },
+    {
+      "parameters": {
+        "lookback_window": 35,
+        "volatility_threshold": 0.1,
+        "hedge_ratio": 0.6
+      },
+      "param_string": "[('hedge_ratio', 0.6), ('lookback_window', 35), ('volatility_threshold', 0.1)]",
+      "total_return": 0.23719133907236908,
+      "sharpe_ratio": 2.1456698207347396,
+      "sortino_ratio": 2.5748037848816874,
+      "max_drawdown": 0.16359718165815348,
+      "calmar_ratio": 1.4498497875592697,
+      "volatility": 0.11054419313738956
+    },
+    {
+      "parameters": {
+        "lookback_window": 25,
+        "volatility_threshold": 0.15,
+        "hedge_ratio": 0.6
+      },
+      "param_string": "[('hedge_ratio', 0.6), ('lookback_window', 25), ('volatility_threshold', 0.15)]",
+      "total_return": 0.2358605363135125,
+      "sharpe_ratio": 1.9822657741584047,
+      "sortino_ratio": 2.3787189289900854,
+      "max_drawdown": 0.07871334935691243,
+      "calmar_ratio": 2.996448991695711,
+      "volatility": 0.11898532446470252
+    },
+    {
+      "parameters": {
+        "lookback_window": 35,
+        "volatility_threshold": 0.25,
+        "hedge_ratio": 0.7
+      },
+      "param_string": "[('hedge_ratio', 0.7), ('lookback_window', 35), ('volatility_threshold', 0.25)]",
+      "total_return": 0.22868445005840718,
+      "sharpe_ratio": 1.8213542417574982,
+      "sortino_ratio": 2.1856250901089975,
+      "max_drawdown": 0.12079507924882703,
+      "calmar_ratio": 1.89316031315595,
+      "volatility": 0.12555737089218863
+    },
+    {
+      "parameters": {
+        "lookback_window": 25,
+        "volatility_threshold": 0.2,
+        "hedge_ratio": 0.6
+      },
+      "param_string": "[('hedge_ratio', 0.6), ('lookback_window', 25), ('volatility_threshold', 0.2)]",
+      "total_return": 0.17130906015778827,
+      "sharpe_ratio": 1.6313245026297456,
+      "sortino_ratio": 1.9575894031556946,
+      "max_drawdown": 0.1422430676322777,
+      "calmar_ratio": 1.204340309930963,
+      "volatility": 0.10501225224143496
+    },
+    {
+      "parameters": {
+        "lookback_window": 30,
+        "volatility_threshold": 0.1,
+        "hedge_ratio": 0.9
+      },
+      "param_string": "[('hedge_ratio', 0.9), ('lookback_window', 30), ('volatility_threshold', 0.1)]",
+      "total_return": 0.2841604995142942,
+      "sharpe_ratio": 1.6221804736155223,
+      "sortino_ratio": 1.9466165683386267,
+      "max_drawdown": 0.206643511687015,
+      "calmar_ratio": 1.375124228166851,
+      "volatility": 0.17517193933481157
+    },
+    {
+      "parameters": {
+        "lookback_window": 30,
+        "volatility_threshold": 0.3,
+        "hedge_ratio": 0.8
+      },
+      "param_string": "[('hedge_ratio', 0.8), ('lookback_window', 30), ('volatility_threshold', 0.3)]",
+      "total_return": 0.3186132983999084,
+      "sharpe_ratio": 1.6130708334324508,
+      "sortino_ratio": 1.935685000118941,
+      "max_drawdown": 0.09997178698898031,
+      "calmar_ratio": 3.1870321417284306,
+      "volatility": 0.19751971940496355
+    },
+    {
+      "parameters": {
+        "lookback_window": 25,
+        "volatility_threshold": 0.25,
+        "hedge_ratio": 0.8
+      },
+      "param_string": "[('hedge_ratio', 0.8), ('lookback_window', 25), ('volatility_threshold', 0.25)]",
+      "total_return": 0.1728444219237432,
+      "sharpe_ratio": 1.5714689643274593,
+      "sortino_ratio": 1.8857627571929512,
+      "max_drawdown": 0.07425021719520535,
+      "calmar_ratio": 2.3278641928996877,
+      "volatility": 0.10998907763839633
+    },
+    {
+      "parameters": {
+        "lookback_window": 30,
+        "volatility_threshold": 0.1,
+        "hedge_ratio": 0.8
+      },
+      "param_string": "[('hedge_ratio', 0.8), ('lookback_window', 30), ('volatility_threshold', 0.1)]",
+      "total_return": 0.16200638150374042,
+      "sharpe_ratio": 1.5543696214320641,
+      "sortino_ratio": 1.8652435457184768,
+      "max_drawdown": 0.06783166556878072,
+      "calmar_ratio": 2.388359185128181,
+      "volatility": 0.10422642032496846
+    },
+    {
+      "parameters": {
+        "lookback_window": 30,
+        "volatility_threshold": 0.3,
+        "hedge_ratio": 0.7
+      },
+      "param_string": "[('hedge_ratio', 0.7), ('lookback_window', 30), ('volatility_threshold', 0.3)]",
+      "total_return": 0.17532683028880164,
+      "sharpe_ratio": 1.5279827049163237,
+      "sortino_ratio": 1.8335792458995883,
+      "max_drawdown": 0.13215560357038314,
+      "calmar_ratio": 1.3266696647897072,
+      "volatility": 0.11474398874063368
+    },
+    {
+      "parameters": {
+        "lookback_window": 25,
+        "volatility_threshold": 0.15,
+        "hedge_ratio": 0.7
+      },
+      "param_string": "[('hedge_ratio', 0.7), ('lookback_window', 25), ('volatility_threshold', 0.15)]",
+      "total_return": 0.34233001398296564,
+      "sharpe_ratio": 1.5121409627024935,
+      "sortino_ratio": 1.8145691552429921,
+      "max_drawdown": 0.05986909890059009,
+      "calmar_ratio": 5.717975053397564,
+      "volatility": 0.2263876334459947
+    },
+    {
+      "parameters": {
+        "lookback_window": 35,
+        "volatility_threshold": 0.2,
+        "hedge_ratio": 0.9
+      },
+      "param_string": "[('hedge_ratio', 0.9), ('lookback_window', 35), ('volatility_threshold', 0.2)]",
+      "total_return": 0.22338635927192355,
+      "sharpe_ratio": 1.4497141000029996,
+      "sortino_ratio": 1.7396569200035994,
+      "max_drawdown": 0.2404342853223376,
+      "calmar_ratio": 0.9290952784559873,
+      "volatility": 0.15408994040373983
+    },
+    {
+      "parameters": {
+        "lookback_window": 30,
+        "volatility_threshold": 0.2,
+        "hedge_ratio": 0.7
+      },
+      "param_string": "[('hedge_ratio', 0.7), ('lookback_window', 30), ('volatility_threshold', 0.2)]",
+      "total_return": 0.24001980377250526,
+      "sharpe_ratio": 1.2197095568514484,
+      "sortino_ratio": 1.463651468221738,
+      "max_drawdown": 0.22314194587500036,
+      "calmar_ratio": 1.0756373161098072,
+      "volatility": 0.19678439217291294
+    },
+    {
+      "parameters": {
+        "lookback_window": 15,
+        "volatility_threshold": 0.25,
+        "hedge_ratio": 0.9
+      },
+      "param_string": "[('hedge_ratio', 0.9), ('lookback_window', 15), ('volatility_threshold', 0.25)]",
+      "total_return": 0.18147968727849512,
+      "sharpe_ratio": 1.1996030238058712,
+      "sortino_ratio": 1.4395236285670454,
+      "max_drawdown": 0.1272187897615733,
+      "calmar_ratio": 1.4265163787410233,
+      "volatility": 0.1512831192295023
+    },
+    {
+      "parameters": {
+        "lookback_window": 20,
+        "volatility_threshold": 0.2,
+        "hedge_ratio": 0.6
+      },
+      "param_string": "[('hedge_ratio', 0.6), ('lookback_window', 20), ('volatility_threshold', 0.2)]",
+      "total_return": 0.16921889306842927,
+      "sharpe_ratio": 1.1525474653022776,
+      "sortino_ratio": 1.383056958362733,
+      "max_drawdown": 0.11052731565700256,
+      "calmar_ratio": 1.531014229944417,
+      "volatility": 0.14682162614799416
+    },
+    {
+      "parameters": {
+        "lookback_window": 15,
+        "volatility_threshold": 0.3,
+        "hedge_ratio": 0.8
+      },
+      "param_string": "[('hedge_ratio', 0.8), ('lookback_window', 15), ('volatility_threshold', 0.3)]",
+      "total_return": 0.30567088019538685,
+      "sharpe_ratio": 1.0886462906254901,
+      "sortino_ratio": 1.3063755487505881,
+      "max_drawdown": 0.2399729369855506,
+      "calmar_ratio": 1.2737723013065931,
+      "volatility": 0.2807807116301855
+    },
+    {
+      "parameters": {
+        "lookback_window": 30,
+        "volatility_threshold": 0.3,
+        "hedge_ratio": 0.6
+      },
+      "param_string": "[('hedge_ratio', 0.6), ('lookback_window', 30), ('volatility_threshold', 0.3)]",
+      "total_return": 0.1935557129463302,
+      "sharpe_ratio": 1.0615592105253813,
+      "sortino_ratio": 1.2738710526304575,
+      "max_drawdown": 0.17052149718841547,
+      "calmar_ratio": 1.1350810081878613,
+      "volatility": 0.18233152802709576
+    },
+    {
+      "parameters": {
+        "lookback_window": 15,
+        "volatility_threshold": 0.2,
+        "hedge_ratio": 0.6
+      },
+      "param_string": "[('hedge_ratio', 0.6), ('lookback_window', 15), ('volatility_threshold', 0.2)]",
+      "total_return": 0.15241456261708544,
+      "sharpe_ratio": 1.0605253987392618,
+      "sortino_ratio": 1.272630478487114,
+      "max_drawdown": 0.06633789272009516,
+      "calmar_ratio": 2.297549053301716,
+      "volatility": 0.14371608902367997
+    },
+    {
+      "parameters": {
+        "lookback_window": 15,
+        "volatility_threshold": 0.1,
+        "hedge_ratio": 0.8
+      },
+      "param_string": "[('hedge_ratio', 0.8), ('lookback_window', 15), ('volatility_threshold', 0.1)]",
+      "total_return": 0.22362034120086424,
+      "sharpe_ratio": 0.9758730695963066,
+      "sortino_ratio": 1.1710476835155679,
+      "max_drawdown": 0.16975967106673695,
+      "calmar_ratio": 1.3172760043400016,
+      "volatility": 0.22914900325446033
+    },
+    {
+      "parameters": {
+        "lookback_window": 20,
+        "volatility_threshold": 0.25,
+        "hedge_ratio": 0.7
+      },
+      "param_string": "[('hedge_ratio', 0.7), ('lookback_window', 20), ('volatility_threshold', 0.25)]",
+      "total_return": 0.20156976901448453,
+      "sharpe_ratio": 0.9521146647756349,
+      "sortino_ratio": 1.142537597730762,
+      "max_drawdown": 0.06450003709702982,
+      "calmar_ratio": 3.1251109004984845,
+      "volatility": 0.21170745128895194
+    },
+    {
+      "parameters": {
+        "lookback_window": 20,
+        "volatility_threshold": 0.25,
+        "hedge_ratio": 0.6
+      },
+      "param_string": "[('hedge_ratio', 0.6), ('lookback_window', 20), ('volatility_threshold', 0.25)]",
+      "total_return": 0.21096166101412595,
+      "sharpe_ratio": 0.9466050130196,
+      "sortino_ratio": 1.13592601562352,
+      "max_drawdown": 0.10988522712585894,
+      "calmar_ratio": 1.9198364196171462,
+      "volatility": 0.22286133932586502
+    },
+    {
+      "parameters": {
+        "lookback_window": 30,
+        "volatility_threshold": 0.15,
+        "hedge_ratio": 0.6
+      },
+      "param_string": "[('hedge_ratio', 0.6), ('lookback_window', 30), ('volatility_threshold', 0.15)]",
+      "total_return": 0.16462414264867278,
+      "sharpe_ratio": 0.9308745249930596,
+      "sortino_ratio": 1.1170494299916713,
+      "max_drawdown": 0.14177707866326847,
+      "calmar_ratio": 1.1611477976610582,
+      "volatility": 0.17684890737545986
+    },
+    {
+      "parameters": {
+        "lookback_window": 35,
+        "volatility_threshold": 0.15,
+        "hedge_ratio": 0.8
+      },
+      "param_string": "[('hedge_ratio', 0.8), ('lookback_window', 35), ('volatility_threshold', 0.15)]",
+      "total_return": 0.19338859687074944,
+      "sharpe_ratio": 0.8783699710479316,
+      "sortino_ratio": 1.0540439652575178,
+      "max_drawdown": 0.15988044119795566,
+      "calmar_ratio": 1.209582581970147,
+      "volatility": 0.22016758683135407
+    },
+    {
+      "parameters": {
+        "lookback_window": 20,
+        "volatility_threshold": 0.2,
+        "hedge_ratio": 0.7
+      },
+      "param_string": "[('hedge_ratio', 0.7), ('lookback_window', 20), ('volatility_threshold', 0.2)]",
+      "total_return": 0.14056766047430785,
+      "sharpe_ratio": 0.8343588089255802,
+      "sortino_ratio": 1.0012305707106963,
+      "max_drawdown": 0.07461619982077781,
+      "calmar_ratio": 1.8838758984234014,
+      "volatility": 0.16847387355485527
+    },
+    {
+      "parameters": {
+        "lookback_window": 25,
+        "volatility_threshold": 0.25,
+        "hedge_ratio": 0.7
+      },
+      "param_string": "[('hedge_ratio', 0.7), ('lookback_window', 25), ('volatility_threshold', 0.25)]",
+      "total_return": 0.21389312866688215,
+      "sharpe_ratio": 0.7907784142412041,
+      "sortino_ratio": 0.9489340970894449,
+      "max_drawdown": 0.08659399873127394,
+      "calmar_ratio": 2.4700687322530746,
+      "volatility": 0.27048427829447586
+    },
+    {
+      "parameters": {
+        "lookback_window": 20,
+        "volatility_threshold": 0.1,
+        "hedge_ratio": 0.8
+      },
+      "param_string": "[('hedge_ratio', 0.8), ('lookback_window', 20), ('volatility_threshold', 0.1)]",
+      "total_return": 0.19373334730307096,
+      "sharpe_ratio": 0.7858858976327481,
+      "sortino_ratio": 0.9430630771592976,
+      "max_drawdown": 0.0795044116934625,
+      "calmar_ratio": 2.436762227107974,
+      "volatility": 0.2465158719435431
+    },
+    {
+      "parameters": {
+        "lookback_window": 35,
+        "volatility_threshold": 0.25,
+        "hedge_ratio": 0.8
+      },
+      "param_string": "[('hedge_ratio', 0.8), ('lookback_window', 35), ('volatility_threshold', 0.25)]",
+      "total_return": 0.14427820095646715,
+      "sharpe_ratio": 0.7338643933462763,
+      "sortino_ratio": 0.8806372720155315,
+      "max_drawdown": 0.16111383951382016,
+      "calmar_ratio": 0.8955047027110985,
+      "volatility": 0.19660062848748816
+    },
+    {
+      "parameters": {
+        "lookback_window": 15,
+        "volatility_threshold": 0.1,
+        "hedge_ratio": 0.7
+      },
+      "param_string": "[('hedge_ratio', 0.7), ('lookback_window', 15), ('volatility_threshold', 0.1)]",
+      "total_return": 0.18809645533605693,
+      "sharpe_ratio": 0.7262963277265545,
+      "sortino_ratio": 0.8715555932718654,
+      "max_drawdown": 0.07053004644870131,
+      "calmar_ratio": 2.666898220077954,
+      "volatility": 0.2589803199540256
+    },
+    {
+      "parameters": {
+        "lookback_window": 35,
+        "volatility_threshold": 0.3,
+        "hedge_ratio": 0.9
+      },
+      "param_string": "[('hedge_ratio', 0.9), ('lookback_window', 35), ('volatility_threshold', 0.3)]",
+      "total_return": 0.17850106116874342,
+      "sharpe_ratio": 0.6881586038971854,
+      "sortino_ratio": 0.8257903246766225,
+      "max_drawdown": 0.05220971572549991,
+      "calmar_ratio": 3.418924211486583,
+      "volatility": 0.25938942005208504
+    },
+    {
+      "parameters": {
+        "lookback_window": 35,
+        "volatility_threshold": 0.3,
+        "hedge_ratio": 0.7
+      },
+      "param_string": "[('hedge_ratio', 0.7), ('lookback_window', 35), ('volatility_threshold', 0.3)]",
+      "total_return": 0.18396588460928892,
+      "sharpe_ratio": 0.6736820999264637,
+      "sortino_ratio": 0.8084185199117564,
+      "max_drawdown": 0.22004719323526756,
+      "calmar_ratio": 0.836029225842469,
+      "volatility": 0.27307521549016944
+    },
+    {
+      "parameters": {
+        "lookback_window": 30,
+        "volatility_threshold": 0.2,
+        "hedge_ratio": 0.9
+      },
+      "param_string": "[('hedge_ratio', 0.9), ('lookback_window', 30), ('volatility_threshold', 0.2)]",
+      "total_return": 0.08104256061694978,
+      "sharpe_ratio": 0.655666357913093,
+      "sortino_ratio": 0.7867996294957116,
+      "max_drawdown": 0.20929271923325868,
+      "calmar_ratio": 0.387221117456203,
+      "volatility": 0.12360335350268463
+    },
+    {
+      "parameters": {
+        "lookback_window": 35,
+        "volatility_threshold": 0.1,
+        "hedge_ratio": 0.8
+      },
+      "param_string": "[('hedge_ratio', 0.8), ('lookback_window', 35), ('volatility_threshold', 0.1)]",
+      "total_return": 0.15861400977538975,
+      "sharpe_ratio": 0.6484737353818537,
+      "sortino_ratio": 0.7781684824582245,
+      "max_drawdown": 0.1488812995465904,
+      "calmar_ratio": 1.0653722815319302,
+      "volatility": 0.24459588896378343
+    },
+    {
+      "parameters": {
+        "lookback_window": 30,
+        "volatility_threshold": 0.25,
+        "hedge_ratio": 0.8
+      },
+      "param_string": "[('hedge_ratio', 0.8), ('lookback_window', 30), ('volatility_threshold', 0.25)]",
+      "total_return": 0.17417987638688381,
+      "sharpe_ratio": 0.624764452389091,
+      "sortino_ratio": 0.7497173428669092,
+      "max_drawdown": 0.10832123441616118,
+      "calmar_ratio": 1.6079938280402086,
+      "volatility": 0.2787928726111453
+    },
+    {
+      "parameters": {
+        "lookback_window": 30,
+        "volatility_threshold": 0.15,
+        "hedge_ratio": 0.8
+      },
+      "param_string": "[('hedge_ratio', 0.8), ('lookback_window', 30), ('volatility_threshold', 0.15)]",
+      "total_return": 0.16158147343062035,
+      "sharpe_ratio": 0.5505287245776881,
+      "sortino_ratio": 0.6606344694932257,
+      "max_drawdown": 0.11622489054539414,
+      "calmar_ratio": 1.3902484456848012,
+      "volatility": 0.29350234822818716
+    },
+    {
+      "parameters": {
+        "lookback_window": 35,
+        "volatility_threshold": 0.15,
+        "hedge_ratio": 0.6
+      },
+      "param_string": "[('hedge_ratio', 0.6), ('lookback_window', 35), ('volatility_threshold', 0.15)]",
+      "total_return": 0.14435284041679908,
+      "sharpe_ratio": 0.5239835546589013,
+      "sortino_ratio": 0.6287802655906816,
+      "max_drawdown": 0.077902733245922,
+      "calmar_ratio": 1.8529881353598792,
+      "volatility": 0.27549116595991024
+    },
+    {
+      "parameters": {
+        "lookback_window": 30,
+        "volatility_threshold": 0.1,
+        "hedge_ratio": 0.7
+      },
+      "param_string": "[('hedge_ratio', 0.7), ('lookback_window', 30), ('volatility_threshold', 0.1)]",
+      "total_return": 0.12744306526125587,
+      "sharpe_ratio": 0.49250200127654875,
+      "sortino_ratio": 0.5910024015318585,
+      "max_drawdown": 0.13589791949715097,
+      "calmar_ratio": 0.9377852562630854,
+      "volatility": 0.25876659370099553
+    },
+    {
+      "parameters": {
+        "lookback_window": 30,
+        "volatility_threshold": 0.2,
+        "hedge_ratio": 0.8
+      },
+      "param_string": "[('hedge_ratio', 0.8), ('lookback_window', 30), ('volatility_threshold', 0.2)]",
+      "total_return": 0.12536495167885298,
+      "sharpe_ratio": 0.4779480002946708,
+      "sortino_ratio": 0.573537600353605,
+      "max_drawdown": 0.13934406953745307,
+      "calmar_ratio": 0.8996791330624747,
+      "volatility": 0.26229830776896507
+    },
+    {
+      "parameters": {
+        "lookback_window": 20,
+        "volatility_threshold": 0.3,
+        "hedge_ratio": 0.9
+      },
+      "param_string": "[('hedge_ratio', 0.9), ('lookback_window', 20), ('volatility_threshold', 0.3)]",
+      "total_return": 0.06209325173842495,
+      "sharpe_ratio": 0.4705220315333407,
+      "sortino_ratio": 0.5646264378400089,
+      "max_drawdown": 0.22787276576303095,
+      "calmar_ratio": 0.27249088556285334,
+      "volatility": 0.13196672541788318
+    },
+    {
+      "parameters": {
+        "lookback_window": 25,
+        "volatility_threshold": 0.3,
+        "hedge_ratio": 0.8
+      },
+      "param_string": "[('hedge_ratio', 0.8), ('lookback_window', 25), ('volatility_threshold', 0.3)]",
+      "total_return": 0.08311503607592262,
+      "sharpe_ratio": 0.45498909449640185,
+      "sortino_ratio": 0.5459869133956822,
+      "max_drawdown": 0.163266481766982,
+      "calmar_ratio": 0.5090759301994788,
+      "volatility": 0.18267478733290807
+    },
+    {
+      "parameters": {
+        "lookback_window": 20,
+        "volatility_threshold": 0.3,
+        "hedge_ratio": 0.7
+      },
+      "param_string": "[('hedge_ratio', 0.7), ('lookback_window', 20), ('volatility_threshold', 0.3)]",
+      "total_return": 0.11276321553803743,
+      "sharpe_ratio": 0.4360590163109241,
+      "sortino_ratio": 0.5232708195731088,
+      "max_drawdown": 0.07197365810488703,
+      "calmar_ratio": 1.5667289742826174,
+      "volatility": 0.2585962250981955
+    },
+    {
+      "parameters": {
+        "lookback_window": 25,
+        "volatility_threshold": 0.2,
+        "hedge_ratio": 0.9
+      },
+      "param_string": "[('hedge_ratio', 0.9), ('lookback_window', 25), ('volatility_threshold', 0.2)]",
+      "total_return": 0.10073196972024209,
+      "sharpe_ratio": 0.43001278973842655,
+      "sortino_ratio": 0.5160153476861118,
+      "max_drawdown": 0.15399079050060732,
+      "calmar_ratio": 0.654142818494362,
+      "volatility": 0.23425342716321665
+    },
+    {
+      "parameters": {
+        "lookback_window": 25,
+        "volatility_threshold": 0.2,
+        "hedge_ratio": 0.8
+      },
+      "param_string": "[('hedge_ratio', 0.8), ('lookback_window', 25), ('volatility_threshold', 0.2)]",
+      "total_return": 0.08813984557498274,
+      "sharpe_ratio": 0.42998513023681056,
+      "sortino_ratio": 0.5159821562841727,
+      "max_drawdown": 0.14293718830769692,
+      "calmar_ratio": 0.6166334081320148,
+      "volatility": 0.20498347355974958
+    },
+    {
+      "parameters": {
+        "lookback_window": 30,
+        "volatility_threshold": 0.1,
+        "hedge_ratio": 0.6
+      },
+      "param_string": "[('hedge_ratio', 0.6), ('lookback_window', 30), ('volatility_threshold', 0.1)]",
+      "total_return": 0.0737257897795456,
+      "sharpe_ratio": 0.3918024026653774,
+      "sortino_ratio": 0.4701628831984529,
+      "max_drawdown": 0.1730843061405018,
+      "calmar_ratio": 0.4259530596592531,
+      "volatility": 0.18817084652365393
+    },
+    {
+      "parameters": {
+        "lookback_window": 25,
+        "volatility_threshold": 0.25,
+        "hedge_ratio": 0.9
+      },
+      "param_string": "[('hedge_ratio', 0.9), ('lookback_window', 25), ('volatility_threshold', 0.25)]",
+      "total_return": 0.09098414851522062,
+      "sharpe_ratio": 0.37719322609961947,
+      "sortino_ratio": 0.45263187131954336,
+      "max_drawdown": 0.12711624002534402,
+      "calmar_ratio": 0.7157555045451351,
+      "volatility": 0.24121363327768522
+    },
+    {
+      "parameters": {
+        "lookback_window": 20,
+        "volatility_threshold": 0.1,
+        "hedge_ratio": 0.7
+      },
+      "param_string": "[('hedge_ratio', 0.7), ('lookback_window', 20), ('volatility_threshold', 0.1)]",
+      "total_return": 0.08454271358084163,
+      "sharpe_ratio": 0.34574056400409775,
+      "sortino_ratio": 0.4148886768049173,
+      "max_drawdown": 0.11482360022565206,
+      "calmar_ratio": 0.7362834244414715,
+      "volatility": 0.24452645244091065
+    },
+    {
+      "parameters": {
+        "lookback_window": 30,
+        "volatility_threshold": 0.25,
+        "hedge_ratio": 0.7
+      },
+      "param_string": "[('hedge_ratio', 0.7), ('lookback_window', 30), ('volatility_threshold', 0.25)]",
+      "total_return": 0.034599124264069726,
+      "sharpe_ratio": 0.27901696053568975,
+      "sortino_ratio": 0.33482035264282767,
+      "max_drawdown": 0.14125045710685047,
+      "calmar_ratio": 0.24494875961991994,
+      "volatility": 0.1240036598407575
+    },
+    {
+      "parameters": {
+        "lookback_window": 25,
+        "volatility_threshold": 0.3,
+        "hedge_ratio": 0.6
+      },
+      "param_string": "[('hedge_ratio', 0.6), ('lookback_window', 25), ('volatility_threshold', 0.3)]",
+      "total_return": 0.05045316893508209,
+      "sharpe_ratio": 0.2703214814746708,
+      "sortino_ratio": 0.3243857777696049,
+      "max_drawdown": 0.1667293549901411,
+      "calmar_ratio": 0.3026051947364964,
+      "volatility": 0.18664135998311168
+    },
+    {
+      "parameters": {
+        "lookback_window": 20,
+        "volatility_threshold": 0.25,
+        "hedge_ratio": 0.9
+      },
+      "param_string": "[('hedge_ratio', 0.9), ('lookback_window', 20), ('volatility_threshold', 0.25)]",
+      "total_return": 0.05636326734517765,
+      "sharpe_ratio": 0.26557202812546155,
+      "sortino_ratio": 0.31868643375055383,
+      "max_drawdown": 0.07704607410634123,
+      "calmar_ratio": 0.7315527494286527,
+      "volatility": 0.21223344846600528
+    },
+    {
+      "parameters": {
+        "lookback_window": 15,
+        "volatility_threshold": 0.15,
+        "hedge_ratio": 0.7
+      },
+      "param_string": "[('hedge_ratio', 0.7), ('lookback_window', 15), ('volatility_threshold', 0.15)]",
+      "total_return": 0.043648786267474135,
+      "sharpe_ratio": 0.25307821216615906,
+      "sortino_ratio": 0.30369385459939086,
+      "max_drawdown": 0.23036026389327446,
+      "calmar_ratio": 0.18948053596472936,
+      "volatility": 0.17247152923151057
+    },
+    {
+      "parameters": {
+        "lookback_window": 35,
+        "volatility_threshold": 0.15,
+        "hedge_ratio": 0.7
+      },
+      "param_string": "[('hedge_ratio', 0.7), ('lookback_window', 35), ('volatility_threshold', 0.15)]",
+      "total_return": 0.055593967671952356,
+      "sharpe_ratio": 0.2520242120811474,
+      "sortino_ratio": 0.30242905449737684,
+      "max_drawdown": 0.24145843544516676,
+      "calmar_ratio": 0.2302423916955152,
+      "volatility": 0.22058978862734058
+    },
+    {
+      "parameters": {
+        "lookback_window": 25,
+        "volatility_threshold": 0.1,
+        "hedge_ratio": 0.9
+      },
+      "param_string": "[('hedge_ratio', 0.9), ('lookback_window', 25), ('volatility_threshold', 0.1)]",
+      "total_return": 0.055807781391765246,
+      "sharpe_ratio": 0.2478924629754833,
+      "sortino_ratio": 0.29747095557057995,
+      "max_drawdown": 0.08760381375267606,
+      "calmar_ratio": 0.6370473955542885,
+      "volatility": 0.22512899634743902
+    },
+    {
+      "parameters": {
+        "lookback_window": 25,
+        "volatility_threshold": 0.15,
+        "hedge_ratio": 0.8
+      },
+      "param_string": "[('hedge_ratio', 0.8), ('lookback_window', 25), ('volatility_threshold', 0.15)]",
+      "total_return": 0.04659454004196893,
+      "sharpe_ratio": 0.24661610991735525,
+      "sortino_ratio": 0.2959393319008263,
+      "max_drawdown": 0.16610546369629478,
+      "calmar_ratio": 0.2805117845320358,
+      "volatility": 0.18893550813685067
+    },
+    {
+      "parameters": {
+        "lookback_window": 35,
+        "volatility_threshold": 0.3,
+        "hedge_ratio": 0.6
+      },
+      "param_string": "[('hedge_ratio', 0.6), ('lookback_window', 35), ('volatility_threshold', 0.3)]",
+      "total_return": 0.05850148426525635,
+      "sharpe_ratio": 0.23302981739624073,
+      "sortino_ratio": 0.27963578087548885,
+      "max_drawdown": 0.19371998035555418,
+      "calmar_ratio": 0.30198993494570137,
+      "volatility": 0.2510472046836016
+    },
+    {
+      "parameters": {
+        "lookback_window": 20,
+        "volatility_threshold": 0.15,
+        "hedge_ratio": 0.6
+      },
+      "param_string": "[('hedge_ratio', 0.6), ('lookback_window', 20), ('volatility_threshold', 0.15)]",
+      "total_return": 0.0429507373894824,
+      "sharpe_ratio": 0.22412033391191297,
+      "sortino_ratio": 0.26894440069429554,
+      "max_drawdown": 0.21004311522583802,
+      "calmar_ratio": 0.20448533789504045,
+      "volatility": 0.19164141262775167
+    },
+    {
+      "parameters": {
+        "lookback_window": 30,
+        "volatility_threshold": 0.15,
+        "hedge_ratio": 0.9
+      },
+      "param_string": "[('hedge_ratio', 0.9), ('lookback_window', 30), ('volatility_threshold', 0.15)]",
+      "total_return": 0.0637845820471338,
+      "sharpe_ratio": 0.2216268099240147,
+      "sortino_ratio": 0.26595217190881765,
+      "max_drawdown": 0.1308089341058348,
+      "calmar_ratio": 0.4876164039034751,
+      "volatility": 0.28780174234787975
+    },
+    {
+      "parameters": {
+        "lookback_window": 15,
+        "volatility_threshold": 0.2,
+        "hedge_ratio": 0.9
+      },
+      "param_string": "[('hedge_ratio', 0.9), ('lookback_window', 15), ('volatility_threshold', 0.2)]",
+      "total_return": 0.06078709754553761,
+      "sharpe_ratio": 0.21393754703453013,
+      "sortino_ratio": 0.2567250564414362,
+      "max_drawdown": 0.17589532099870767,
+      "calmar_ratio": 0.34558677968462975,
+      "volatility": 0.28413477852827024
+    },
+    {
+      "parameters": {
+        "lookback_window": 35,
+        "volatility_threshold": 0.3,
+        "hedge_ratio": 0.8
+      },
+      "param_string": "[('hedge_ratio', 0.8), ('lookback_window', 35), ('volatility_threshold', 0.3)]",
+      "total_return": 0.04705476816926047,
+      "sharpe_ratio": 0.18287810531783052,
+      "sortino_ratio": 0.21945372638139662,
+      "max_drawdown": 0.15715420344144856,
+      "calmar_ratio": 0.2994178147248337,
+      "volatility": 0.2573012668054619
+    },
+    {
+      "parameters": {
+        "lookback_window": 25,
+        "volatility_threshold": 0.1,
+        "hedge_ratio": 0.7
+      },
+      "param_string": "[('hedge_ratio', 0.7), ('lookback_window', 25), ('volatility_threshold', 0.1)]",
+      "total_return": 0.04961670823090304,
+      "sharpe_ratio": 0.17655571662430722,
+      "sortino_ratio": 0.21186685994916865,
+      "max_drawdown": 0.097919498017297,
+      "calmar_ratio": 0.506709176778444,
+      "volatility": 0.28102578143353124
+    },
+    {
+      "parameters": {
+        "lookback_window": 15,
+        "volatility_threshold": 0.2,
+        "hedge_ratio": 0.7
+      },
+      "param_string": "[('hedge_ratio', 0.7), ('lookback_window', 15), ('volatility_threshold', 0.2)]",
+      "total_return": 0.020987127222305536,
+      "sharpe_ratio": 0.13699346297854503,
+      "sortino_ratio": 0.16439215557425405,
+      "max_drawdown": 0.08576047139028041,
+      "calmar_ratio": 0.24471795551119246,
+      "volatility": 0.15319801956968118
+    },
+    {
+      "parameters": {
+        "lookback_window": 15,
+        "volatility_threshold": 0.3,
+        "hedge_ratio": 0.7
+      },
+      "param_string": "[('hedge_ratio', 0.7), ('lookback_window', 15), ('volatility_threshold', 0.3)]",
+      "total_return": 0.017382668773865597,
+      "sharpe_ratio": 0.11773078342467481,
+      "sortino_ratio": 0.14127694010960978,
+      "max_drawdown": 0.13708037401245393,
+      "calmar_ratio": 0.12680640025308335,
+      "volatility": 0.14764760981130462
+    },
+    {
+      "parameters": {
+        "lookback_window": 15,
+        "volatility_threshold": 0.25,
+        "hedge_ratio": 0.7
+      },
+      "param_string": "[('hedge_ratio', 0.7), ('lookback_window', 15), ('volatility_threshold', 0.25)]",
+      "total_return": 0.01015454699204249,
+      "sharpe_ratio": 0.038598079530586686,
+      "sortino_ratio": 0.04631769543670402,
+      "max_drawdown": 0.19150540477613254,
+      "calmar_ratio": 0.05302485850941403,
+      "volatility": 0.26308425485251447
+    },
+    {
+      "parameters": {
+        "lookback_window": 20,
+        "volatility_threshold": 0.3,
+        "hedge_ratio": 0.8
+      },
+      "param_string": "[('hedge_ratio', 0.8), ('lookback_window', 20), ('volatility_threshold', 0.3)]",
+      "total_return": 0.006466439898733764,
+      "sharpe_ratio": 0.023455307193828847,
+      "sortino_ratio": 0.028146368632594614,
+      "max_drawdown": 0.23441542019154793,
+      "calmar_ratio": 0.027585386206461334,
+      "volatility": 0.2756919721961732
+    },
+    {
+      "parameters": {
+        "lookback_window": 35,
+        "volatility_threshold": 0.25,
+        "hedge_ratio": 0.9
+      },
+      "param_string": "[('hedge_ratio', 0.9), ('lookback_window', 35), ('volatility_threshold', 0.25)]",
+      "total_return": 0.0052054358196057275,
+      "sharpe_ratio": 0.019007556594879675,
+      "sortino_ratio": 0.022809067913855608,
+      "max_drawdown": 0.16934544875284843,
+      "calmar_ratio": 0.03073856343906125,
+      "volatility": 0.27386138737095683
+    },
+    {
+      "parameters": {
+        "lookback_window": 30,
+        "volatility_threshold": 0.2,
+        "hedge_ratio": 0.6
+      },
+      "param_string": "[('hedge_ratio', 0.6), ('lookback_window', 30), ('volatility_threshold', 0.2)]",
+      "total_return": 0.0031727032925507825,
+      "sharpe_ratio": 0.012210474089602909,
+      "sortino_ratio": 0.01465256890752349,
+      "max_drawdown": 0.2061002347514065,
+      "calmar_ratio": 0.015393981944647594,
+      "volatility": 0.25983457065375587
+    },
+    {
+      "parameters": {
+        "lookback_window": 35,
+        "volatility_threshold": 0.2,
+        "hedge_ratio": 0.6
+      },
+      "param_string": "[('hedge_ratio', 0.6), ('lookback_window', 35), ('volatility_threshold', 0.2)]",
+      "total_return": -0.0013740035051272412,
+      "sharpe_ratio": -0.005571936412949339,
+      "sortino_ratio": -0.006686323695539207,
+      "max_drawdown": 0.12957862481048552,
+      "calmar_ratio": -0.010603627775312343,
+      "volatility": 0.24659353648293938
+    },
+    {
+      "parameters": {
+        "lookback_window": 35,
+        "volatility_threshold": 0.2,
+        "hedge_ratio": 0.8
+      },
+      "param_string": "[('hedge_ratio', 0.8), ('lookback_window', 35), ('volatility_threshold', 0.2)]",
+      "total_return": -0.011427148273825183,
+      "sharpe_ratio": -0.04433709841168005,
+      "sortino_ratio": -0.05320451809401606,
+      "max_drawdown": 0.13844338437716164,
+      "calmar_ratio": -0.08254022628263823,
+      "volatility": 0.25773333581105173
+    },
+    {
+      "parameters": {
+        "lookback_window": 30,
+        "volatility_threshold": 0.25,
+        "hedge_ratio": 0.6
+      },
+      "param_string": "[('hedge_ratio', 0.6), ('lookback_window', 30), ('volatility_threshold', 0.25)]",
+      "total_return": -0.024264599853441596,
+      "sharpe_ratio": -0.101353412972603,
+      "sortino_ratio": -0.1216240955671236,
+      "max_drawdown": 0.10907118706998392,
+      "calmar_ratio": -0.2224657171638975,
+      "volatility": 0.23940584872066023
+    },
+    {
+      "parameters": {
+        "lookback_window": 15,
+        "volatility_threshold": 0.3,
+        "hedge_ratio": 0.9
+      },
+      "param_string": "[('hedge_ratio', 0.9), ('lookback_window', 15), ('volatility_threshold', 0.3)]",
+      "total_return": -0.025223660658885632,
+      "sharpe_ratio": -0.15295108502521707,
+      "sortino_ratio": -0.18354130203026048,
+      "max_drawdown": 0.13006469105125135,
+      "calmar_ratio": -0.19393165397168685,
+      "volatility": 0.1649132508914664
+    },
+    {
+      "parameters": {
+        "lookback_window": 30,
+        "volatility_threshold": 0.3,
+        "hedge_ratio": 0.9
+      },
+      "param_string": "[('hedge_ratio', 0.9), ('lookback_window', 30), ('volatility_threshold', 0.3)]",
+      "total_return": -0.046527577701869056,
+      "sharpe_ratio": -0.16894914053234084,
+      "sortino_ratio": -0.202738968638809,
+      "max_drawdown": 0.13635854548106066,
+      "calmar_ratio": -0.34121497510642956,
+      "volatility": 0.27539398871912335
+    },
+    {
+      "parameters": {
+        "lookback_window": 15,
+        "volatility_threshold": 0.1,
+        "hedge_ratio": 0.6
+      },
+      "param_string": "[('hedge_ratio', 0.6), ('lookback_window', 15), ('volatility_threshold', 0.1)]",
+      "total_return": -0.02722301947358106,
+      "sharpe_ratio": -0.20206524855513544,
+      "sortino_ratio": -0.24247829826616252,
+      "max_drawdown": 0.18672192967441126,
+      "calmar_ratio": -0.1457944416119204,
+      "volatility": 0.13472390561087993
+    },
+    {
+      "parameters": {
+        "lookback_window": 35,
+        "volatility_threshold": 0.1,
+        "hedge_ratio": 0.9
+      },
+      "param_string": "[('hedge_ratio', 0.9), ('lookback_window', 35), ('volatility_threshold', 0.1)]",
+      "total_return": -0.0371505320013793,
+      "sharpe_ratio": -0.2049618859734815,
+      "sortino_ratio": -0.24595426316817778,
+      "max_drawdown": 0.0714999727375127,
+      "calmar_ratio": -0.5195880582747152,
+      "volatility": 0.18125580678051495
+    },
+    {
+      "parameters": {
+        "lookback_window": 20,
+        "volatility_threshold": 0.3,
+        "hedge_ratio": 0.6
+      },
+      "param_string": "[('hedge_ratio', 0.6), ('lookback_window', 20), ('volatility_threshold', 0.3)]",
+      "total_return": -0.03851438584546492,
+      "sharpe_ratio": -0.2204878010147629,
+      "sortino_ratio": -0.2645853612177155,
+      "max_drawdown": 0.18728228272177339,
+      "calmar_ratio": -0.20564884881653167,
+      "volatility": 0.17467808045709596
+    },
+    {
+      "parameters": {
+        "lookback_window": 35,
+        "volatility_threshold": 0.25,
+        "hedge_ratio": 0.6
+      },
+      "param_string": "[('hedge_ratio', 0.6), ('lookback_window', 35), ('volatility_threshold', 0.25)]",
+      "total_return": -0.026780440615051852,
+      "sharpe_ratio": -0.23222395844045118,
+      "sortino_ratio": -0.2786687501285414,
+      "max_drawdown": 0.06597467622502816,
+      "calmar_ratio": -0.40592000063340095,
+      "volatility": 0.11532160934169554
+    },
+    {
+      "parameters": {
+        "lookback_window": 35,
+        "volatility_threshold": 0.2,
+        "hedge_ratio": 0.7
+      },
+      "param_string": "[('hedge_ratio', 0.7), ('lookback_window', 35), ('volatility_threshold', 0.2)]",
+      "total_return": -0.07080016723555617,
+      "sharpe_ratio": -0.3392368885618525,
+      "sortino_ratio": -0.407084266274223,
+      "max_drawdown": 0.2207984737005994,
+      "calmar_ratio": -0.32065514787733773,
+      "volatility": 0.2087042111950254
+    },
+    {
+      "parameters": {
+        "lookback_window": 25,
+        "volatility_threshold": 0.25,
+        "hedge_ratio": 0.6
+      },
+      "param_string": "[('hedge_ratio', 0.6), ('lookback_window', 25), ('volatility_threshold', 0.25)]",
+      "total_return": -0.09342854760938826,
+      "sharpe_ratio": -0.36987969398739434,
+      "sortino_ratio": -0.4438556327848732,
+      "max_drawdown": 0.13083172362766335,
+      "calmar_ratio": -0.7141123346756362,
+      "volatility": 0.25259171868075664
+    },
+    {
+      "parameters": {
+        "lookback_window": 25,
+        "volatility_threshold": 0.1,
+        "hedge_ratio": 0.8
+      },
+      "param_string": "[('hedge_ratio', 0.8), ('lookback_window', 25), ('volatility_threshold', 0.1)]",
+      "total_return": -0.1150704187544472,
+      "sharpe_ratio": -0.39589083562619815,
+      "sortino_ratio": -0.47506900275143776,
+      "max_drawdown": 0.1662276481718032,
+      "calmar_ratio": -0.6922459652170326,
+      "volatility": 0.2906619916382636
+    },
+    {
+      "parameters": {
+        "lookback_window": 25,
+        "volatility_threshold": 0.3,
+        "hedge_ratio": 0.7
+      },
+      "param_string": "[('hedge_ratio', 0.7), ('lookback_window', 25), ('volatility_threshold', 0.3)]",
+      "total_return": -0.10676857917921564,
+      "sharpe_ratio": -0.40880855727155857,
+      "sortino_ratio": -0.4905702687258703,
+      "max_drawdown": 0.06243095318483576,
+      "calmar_ratio": -1.710186593869743,
+      "volatility": 0.26117011809097884
+    },
+    {
+      "parameters": {
+        "lookback_window": 25,
+        "volatility_threshold": 0.3,
+        "hedge_ratio": 0.9
+      },
+      "param_string": "[('hedge_ratio', 0.9), ('lookback_window', 25), ('volatility_threshold', 0.3)]",
+      "total_return": -0.0589317041618035,
+      "sharpe_ratio": -0.45165702431779753,
+      "sortino_ratio": -0.541988429181357,
+      "max_drawdown": 0.1375159839327183,
+      "calmar_ratio": -0.4285443951783576,
+      "volatility": 0.13047888328719456
+    },
+    {
+      "parameters": {
+        "lookback_window": 25,
+        "volatility_threshold": 0.2,
+        "hedge_ratio": 0.7
+      },
+      "param_string": "[('hedge_ratio', 0.7), ('lookback_window', 25), ('volatility_threshold', 0.2)]",
+      "total_return": -0.13689872289608424,
+      "sharpe_ratio": -0.4650911513056961,
+      "sortino_ratio": -0.5581093815668353,
+      "max_drawdown": 0.23621463361234477,
+      "calmar_ratio": -0.5795522521299451,
+      "volatility": 0.2943481562952875
+    },
+    {
+      "parameters": {
+        "lookback_window": 30,
+        "volatility_threshold": 0.15,
+        "hedge_ratio": 0.7
+      },
+      "param_string": "[('hedge_ratio', 0.7), ('lookback_window', 30), ('volatility_threshold', 0.15)]",
+      "total_return": -0.08438191716855992,
+      "sharpe_ratio": -0.4746456132563394,
+      "sortino_ratio": -0.5695747359076073,
+      "max_drawdown": 0.13595088948271192,
+      "calmar_ratio": -0.6206794048176513,
+      "volatility": 0.1777787781280688
+    },
+    {
+      "parameters": {
+        "lookback_window": 20,
+        "volatility_threshold": 0.25,
+        "hedge_ratio": 0.8
+      },
+      "param_string": "[('hedge_ratio', 0.8), ('lookback_window', 20), ('volatility_threshold', 0.25)]",
+      "total_return": -0.14391936964777233,
+      "sharpe_ratio": -0.4818546785122896,
+      "sortino_ratio": -0.5782256142147475,
+      "max_drawdown": 0.07896649318421556,
+      "calmar_ratio": -1.822537178041231,
+      "volatility": 0.29867795429966276
+    },
+    {
+      "parameters": {
+        "lookback_window": 15,
+        "volatility_threshold": 0.3,
+        "hedge_ratio": 0.6
+      },
+      "param_string": "[('hedge_ratio', 0.6), ('lookback_window', 15), ('volatility_threshold', 0.3)]",
+      "total_return": -0.08449907579873724,
+      "sharpe_ratio": -0.5083563266211946,
+      "sortino_ratio": -0.6100275919454334,
+      "max_drawdown": 0.2458458854710808,
+      "calmar_ratio": -0.3437075045483199,
+      "volatility": 0.16622017150915158
+    },
+    {
+      "parameters": {
+        "lookback_window": 20,
+        "volatility_threshold": 0.15,
+        "hedge_ratio": 0.9
+      },
+      "param_string": "[('hedge_ratio', 0.9), ('lookback_window', 20), ('volatility_threshold', 0.15)]",
+      "total_return": -0.14435048081200197,
+      "sharpe_ratio": -0.5581731753566358,
+      "sortino_ratio": -0.6698078104279629,
+      "max_drawdown": 0.09321584618839523,
+      "calmar_ratio": -1.5485616095814905,
+      "volatility": 0.258612357571235
+    },
+    {
+      "parameters": {
+        "lookback_window": 15,
+        "volatility_threshold": 0.25,
+        "hedge_ratio": 0.8
+      },
+      "param_string": "[('hedge_ratio', 0.8), ('lookback_window', 15), ('volatility_threshold', 0.25)]",
+      "total_return": -0.12906039916708567,
+      "sharpe_ratio": -0.5835428627856273,
+      "sortino_ratio": -0.7002514353427527,
+      "max_drawdown": 0.05092952177446344,
+      "calmar_ratio": -2.534097997986657,
+      "volatility": 0.22116695687270846
+    },
+    {
+      "parameters": {
+        "lookback_window": 15,
+        "volatility_threshold": 0.15,
+        "hedge_ratio": 0.9
+      },
+      "param_string": "[('hedge_ratio', 0.9), ('lookback_window', 15), ('volatility_threshold', 0.15)]",
+      "total_return": -0.13436275175533832,
+      "sharpe_ratio": -0.6125251810724512,
+      "sortino_ratio": -0.7350302172869415,
+      "max_drawdown": 0.16243050709439188,
+      "calmar_ratio": -0.8272014546950667,
+      "volatility": 0.2193587397012589
+    },
+    {
+      "parameters": {
+        "lookback_window": 30,
+        "volatility_threshold": 0.25,
+        "hedge_ratio": 0.9
+      },
+      "param_string": "[('hedge_ratio', 0.9), ('lookback_window', 30), ('volatility_threshold', 0.25)]",
+      "total_return": -0.10740117374266474,
+      "sharpe_ratio": -0.7353213225707163,
+      "sortino_ratio": -0.8823855870848595,
+      "max_drawdown": 0.07441572357296818,
+      "calmar_ratio": -1.4432591472063394,
+      "volatility": 0.14606019225334774
+    },
+    {
+      "parameters": {
+        "lookback_window": 20,
+        "volatility_threshold": 0.15,
+        "hedge_ratio": 0.8
+      },
+      "param_string": "[('hedge_ratio', 0.8), ('lookback_window', 20), ('volatility_threshold', 0.15)]",
+      "total_return": -0.20656465003498578,
+      "sharpe_ratio": -0.7414047800176662,
+      "sortino_ratio": -0.8896857360211994,
+      "max_drawdown": 0.20611803113882876,
+      "calmar_ratio": -1.0021668113832127,
+      "volatility": 0.2786125145161106
+    },
+    {
+      "parameters": {
+        "lookback_window": 20,
+        "volatility_threshold": 0.2,
+        "hedge_ratio": 0.8
+      },
+      "param_string": "[('hedge_ratio', 0.8), ('lookback_window', 20), ('volatility_threshold', 0.2)]",
+      "total_return": -0.20334909500431594,
+      "sharpe_ratio": -0.7719234628647588,
+      "sortino_ratio": -0.9263081554377105,
+      "max_drawdown": 0.1429442591300926,
+      "calmar_ratio": -1.422576158299924,
+      "volatility": 0.26343168045397625
+    },
+    {
+      "parameters": {
+        "lookback_window": 15,
+        "volatility_threshold": 0.15,
+        "hedge_ratio": 0.8
+      },
+      "param_string": "[('hedge_ratio', 0.8), ('lookback_window', 15), ('volatility_threshold', 0.15)]",
+      "total_return": -0.1666284251091614,
+      "sharpe_ratio": -0.7853418981766411,
+      "sortino_ratio": -0.9424102778119693,
+      "max_drawdown": 0.12274377014766638,
+      "calmar_ratio": -1.357530609567392,
+      "volatility": 0.21217310001673043
+    },
+    {
+      "parameters": {
+        "lookback_window": 20,
+        "volatility_threshold": 0.2,
+        "hedge_ratio": 0.9
+      },
+      "param_string": "[('hedge_ratio', 0.9), ('lookback_window', 20), ('volatility_threshold', 0.2)]",
+      "total_return": -0.1961899777074325,
+      "sharpe_ratio": -0.9398653699758585,
+      "sortino_ratio": -1.12783844397103,
+      "max_drawdown": 0.20229801871729247,
+      "calmar_ratio": -0.9698067185798994,
+      "volatility": 0.2087426390786926
+    },
+    {
+      "parameters": {
+        "lookback_window": 20,
+        "volatility_threshold": 0.1,
+        "hedge_ratio": 0.6
+      },
+      "param_string": "[('hedge_ratio', 0.6), ('lookback_window', 20), ('volatility_threshold', 0.1)]",
+      "total_return": -0.1973442386516158,
+      "sharpe_ratio": -1.00931948706105,
+      "sortino_ratio": -1.21118338447326,
+      "max_drawdown": 0.1662418160032095,
+      "calmar_ratio": -1.1870914514541024,
+      "volatility": 0.19552207322009146
+    },
+    {
+      "parameters": {
+        "lookback_window": 15,
+        "volatility_threshold": 0.2,
+        "hedge_ratio": 0.8
+      },
+      "param_string": "[('hedge_ratio', 0.8), ('lookback_window', 15), ('volatility_threshold', 0.2)]",
+      "total_return": -0.12249471466443466,
+      "sharpe_ratio": -1.181736164981297,
+      "sortino_ratio": -1.4180833979775562,
+      "max_drawdown": 0.08524277984855105,
+      "calmar_ratio": -1.437009854465895,
+      "volatility": 0.10365656759465709
+    },
+    {
+      "parameters": {
+        "lookback_window": 25,
+        "volatility_threshold": 0.15,
+        "hedge_ratio": 0.9
+      },
+      "param_string": "[('hedge_ratio', 0.9), ('lookback_window', 25), ('volatility_threshold', 0.15)]",
+      "total_return": -0.12148756269199426,
+      "sharpe_ratio": -1.203233118282629,
+      "sortino_ratio": -1.4438797419391547,
+      "max_drawdown": 0.058016144768465505,
+      "calmar_ratio": -2.0940302596257387,
+      "volatility": 0.100967602076473
+    },
+    {
+      "parameters": {
+        "lookback_window": 15,
+        "volatility_threshold": 0.1,
+        "hedge_ratio": 0.9
+      },
+      "param_string": "[('hedge_ratio', 0.9), ('lookback_window', 15), ('volatility_threshold', 0.1)]",
+      "total_return": -0.1891156534234613,
+      "sharpe_ratio": -1.213685711835375,
+      "sortino_ratio": -1.45642285420245,
+      "max_drawdown": 0.21769358147790452,
+      "calmar_ratio": -0.8687240668262705,
+      "volatility": 0.15581929619775653
+    },
+    {
+      "parameters": {
+        "lookback_window": 15,
+        "volatility_threshold": 0.25,
+        "hedge_ratio": 0.6
+      },
+      "param_string": "[('hedge_ratio', 0.6), ('lookback_window', 15), ('volatility_threshold', 0.25)]",
+      "total_return": -0.192572314896075,
+      "sharpe_ratio": -1.5339463203547015,
+      "sortino_ratio": -1.8407355844256417,
+      "max_drawdown": 0.23996243665310557,
+      "calmar_ratio": -0.8025102494456718,
+      "volatility": 0.12554045232270292
+    },
+    {
+      "parameters": {
+        "lookback_window": 25,
+        "volatility_threshold": 0.1,
+        "hedge_ratio": 0.6
+      },
+      "param_string": "[('hedge_ratio', 0.6), ('lookback_window', 25), ('volatility_threshold', 0.1)]",
+      "total_return": -0.3594841580237911,
+      "sharpe_ratio": -1.7707231801075272,
+      "sortino_ratio": -2.1248678161290324,
+      "max_drawdown": 0.24045281969694512,
+      "calmar_ratio": -1.4950299126326203,
+      "volatility": 0.2030154470570388
+    }
+  ]
+}

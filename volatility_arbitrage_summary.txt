@@ -1,0 +1,23 @@
+
+VOLATILITY ARBITRAGE STRATEGY - ANALYSIS SUMMARY
+=======================================================
+
+PERFORMANCE OVERVIEW
+- Total Return: 97.98%
+- Sharpe Ratio: 1.45
+- Max Drawdown: -15.00%
+- Win Rate: 54.2%
+- Profit Factor: 1.28
+
+OPTIMAL PARAMETERS (from optimization)
+- Lookback Window: 30
+- Volatility Threshold: 0.25
+- Expected Sharpe: 1.011
+
+RECOMMENDATIONS
+1. Strategy shows moderate risk-adjusted performance
+2. Moderate drawdown risk observed
+3. Parameter optimization suggests using optimized settings for best results
+4. Consider implementing optimized parameters in live trading
+
+ANALYSIS GENERATED: 2025-08-02 20:29:02
